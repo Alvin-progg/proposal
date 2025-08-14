@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaPhone } from "react-icons/fa6";
-import { RiArrowDownWideFill } from "react-icons/ri";
+
 import { CgArrowTopRight } from "react-icons/cg";
 
 const Nav = () => {
