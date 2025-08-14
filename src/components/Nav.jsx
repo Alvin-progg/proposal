@@ -16,8 +16,8 @@ const Nav = () => {
 
     return (
     
-    <header>
-        <nav className={`flex justify-center items-center p-10 h-[10vw] fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "backdrop-blur-md bg-white/30 shadow-sm" : "bg-transparent"}`}>
+    
+        <nav className={`flex justify-center items-center p-10 h-[10vw] -mt-7 fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "backdrop-blur-md bg-white/30 shadow-sm" : "bg-transparent"}`}>
             <a href="#" className="font-bold text-3xl">BLUEKET</a>
             <ul className="flex gap-7 text-xl mx-20">
                 <li><a href="#" className="flex gap-1 items-center">Demo </a></li>
@@ -32,7 +32,7 @@ const Nav = () => {
                 <a href="#" className="flex gap-2 p-4 px-6 bg-orange-500 text-white items-center rounded-4xl hover:bg-orange-600"  aria-label="Get Started with our services"   >Get Started <CgArrowTopRight /></a>
             </div>
         </nav>
-    </header>
+
 
     );
 };
