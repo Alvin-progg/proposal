@@ -6,7 +6,7 @@ import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <main>
+    <main className='m-0 p-0 box-border font-sans'>
         <Nav/>
         <Hero/>
     </main>
