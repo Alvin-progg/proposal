@@ -7,7 +7,7 @@ import Services from './components/Services'
 
 const App = () => {
   return (
-    <main className='m-0 p-0 box-border font-sans inline-block  flex-col'>
+    <main className=''>
         <Nav/>
         <Hero/>
         <Services/>
