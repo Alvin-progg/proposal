@@ -13,12 +13,14 @@ export const ClientList = [
     { id: 2, img: aspire },
     { id: 3, img: clutch},
     { id: 4, img: fino },
+    
     { id: 5, img: indo },
     { id: 6, img: lyka },
+        {id:11,img:appstore},
+    {id:12,img:aspire},
     { id: 7, img: manu },
     { id: 8, img: nuvo },
     { id: 9, img: riko },
     { id: 10, img: trust },
-    {id:11,img:appstore},
-    {id:12,img:aspire},
+
 ];

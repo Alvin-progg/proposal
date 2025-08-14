@@ -2,13 +2,14 @@ import React from 'react'
 import {ClientList} from '../constants/clients.js'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const Services = () => {
   return (
     <section className='h-screen w-screen'>
         <div className='mx-20'> 
             <Swiper
+            rewind={true}
             spaceBetween={10}
             slidesPerView={6}
             centeredSlides={true}
@@ -16,7 +17,7 @@ const Services = () => {
             autoplay={{delay: 1000,disableOnInteraction: false,
             }}
             pagination={{clickable: true,}}
-            navigation={true}
+            navigation={true }
             modules={[Autoplay, Navigation]}
             className="mySwiper">
                 {
