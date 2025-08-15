@@ -2,18 +2,19 @@ import React from 'react'
 import {ClientList} from '../constants/clients.js'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay , Navigation } from 'swiper/modules';
 const CarouselClient = () => {
   return (
     <div className='max-w-7xl mx-auto overflow-hidden px-8'> 
             <Swiper
                 rewind={true}
                 spaceBetween={10}
+                navigation={false}
                 slidesPerView="5"
                 centeredSlides={true}
                 loop={true}
                 autoplay={{ delay: 1000, disableOnInteraction: false }}
-                modules={[Autoplay]}
+                modules={[Autoplay , Navigation]}
                 className="mySwiper"
                 >
                 {ClientList.map((client) =>(

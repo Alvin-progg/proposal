@@ -5,6 +5,7 @@ import { CgArrowTopRight } from "react-icons/cg";
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [phone,setPhone] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +17,7 @@ const Nav = () => {
 
     return (
     
-    
+      <header className='m-0 p-0 relative'>
         <nav className={`flex justify-center items-center p-10 h-[5vw]  fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "backdrop-blur-md bg-white/30 shadow-sm" : "bg-transparent" && "text-black : text-white"} `}>
             <a href="#" className=" text-3xl">BLUEKET</a>
             <ul className="flex gap-7 text-xl mx-20">
@@ -35,6 +36,10 @@ const Nav = () => {
                 </a>
             </div>
         </nav>
+
+
+      </header>
+        
 
 
     );
