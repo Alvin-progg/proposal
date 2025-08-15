@@ -26,6 +26,7 @@ const CarouselClient = () => {
                                 src={client.img}
                                 alt="client logo"
                                 className="max-w-full max-h-full object-contain"
+                                loading='lazy'
                             />
                         </div>
                     </SwiperSlide>
