@@ -3,7 +3,7 @@ import { AiOutlineMinus } from "react-icons/ai";
 import { CgArrowTopRight } from "react-icons/cg";
 const Hero = () => {
   return (
-    <section className='h-screen w-screen relative justify-center flex items-center bg-[url(./assets/slider-2.jpg)] bg-cover bg-center '>
+    <section className='h-screen w-full relative justify-center flex items-center bg-[url(./assets/slider-2.jpg)] bg-cover bg-center '>
         <div className="absolute inset-0 bg-black/50"></div>
 
         <div className='flex flex-col justify-start w-[50vw] relative z-10 text-white  px-8 gap-8 md:-ml-[13vw]'>
