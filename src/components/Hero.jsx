@@ -16,7 +16,7 @@ const Hero = () => {
             </p>
             
             
-            <h1 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-white max-w-4xl'>
+            <h1 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-white max-w-4xl'>
                 We Build Global Experience That Customers Love.
             </h1>
             
