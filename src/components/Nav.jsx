@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaPhone } from "react-icons/fa6";
-
+import { MdOutlineExitToApp } from "react-icons/md";
 import { CgArrowTopRight } from "react-icons/cg";
 
 const Nav = () => {
@@ -50,8 +50,19 @@ const Nav = () => {
             </div>
         </nav>
 
+        <div className={`fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+          <div className='items-center m-5 gap-5 justify-between flex'>
+              <img src="./assets/logo-black.svg" alt="logo" loading='lazy' />
+              <button aria-label='exit sidebar' onClick={toggleSidebar}><MdOutlineExitToApp className='text-2xl' /></button>
+          </div>
+          <div>
+            <h2>Get In Touch</h2>
+            <h3></h3>
+          </div>
+        </div>
 
-        
+
+
 
 
 
