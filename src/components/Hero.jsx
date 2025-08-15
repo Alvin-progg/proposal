@@ -9,23 +9,23 @@ const Hero = () => {
 
         <div className='flex flex-col justify-center items-start w-full max-w-7xl mx-auto relative z-10 text-white px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 gap-4 sm:gap-6 md:gap-8'>
             
-            {/* Brand tagline */}
+            
             <p className='text-orange-400 flex items-center gap-2 sm:gap-3 md:gap-4 text-sm sm:text-base md:text-lg lg:text-xl font-medium'>
                 <AiOutlineMinus className="text-lg sm:text-xl md:text-2xl" /> 
                 Creative Agency 
             </p>
             
-            {/* Main heading */}
-            <h1 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-white max-w-4xl'>
+            
+            <h1 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-6xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-white max-w-4xl'>
                 We Build Global Experience That Customers Love.
             </h1>
             
-            {/* Description */}
+            
             <p className='text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 max-w-2xl leading-relaxed'>
                 A full-service digital marketing firm that specialises in human-centered experiences. We bring companies and people together
             </p>
             
-            {/* CTA Button */}
+            
             <div className="mt-2 sm:mt-4 md:mt-6">
                 <a 
                   href="#" 
