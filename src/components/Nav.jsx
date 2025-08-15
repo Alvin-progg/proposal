@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineExitToApp } from "react-icons/md";
 import { CgArrowTopRight } from "react-icons/cg";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -52,12 +54,32 @@ const Nav = () => {
 
         <div className={`fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className='items-center m-5 gap-5 justify-between flex'>
-              <img src="./assets/logo-black.svg" alt="logo" loading='lazy' />
+              <h3 className='text-2xl'> BLUEKET</h3>
               <button aria-label='exit sidebar' onClick={toggleSidebar}><MdOutlineExitToApp className='text-2xl' /></button>
           </div>
           <div>
             <h2>Get In Touch</h2>
-            <h3></h3>
+            <h3>Please fill out the form below if you have a plan or project in mind that you'd like to share with us.</h3>
+          </div>
+          <div>
+            <h3>We're Available 24/7. Call Now.</h3>
+              <p className='flex items-center'><FaPhoneSquareAlt /> 91 123 4567 890</p>
+              <p className='flex items-center'><FaPhoneSquareAlt /> 91 123 4567 890</p>
+          </div>
+          <div>
+            <h3>Send Us an Email:</h3>
+              <p className='flex items-center'><MdEmail /> hr@yourwebsite.com</p>
+              <p className='flex items-center'><MdEmail /> hr@yourwebsite.com</p>
+          </div>
+          <div>
+            <h3>Follow Us:</h3>
+            <ul className='flex items-center'>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+              <li><a href=""></a></li>
+            </ul>
           </div>
         </div>
 
