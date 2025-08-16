@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { FaPhone } from "react-icons/fa6";
-import { MdOutlineExitToApp } from "react-icons/md";
+import { FaPhone, FaPhoneSquareAlt, FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { MdOutlineExitToApp, MdEmail } from "react-icons/md";
 import { CgArrowTopRight } from "react-icons/cg";
-import { FaPhoneSquareAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaLinkedinIn } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io";
+import { IoLogoYoutube, IoLogoInstagram } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdArrowBackIosNew } from "react-icons/md";
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isMobileNavOpen , setisMobileNavOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
+  const toggleNav = () => {
+    setisMobileNavOpen(!isMobileNavOpen)
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,14 +38,14 @@ const Nav = () => {
 
       {/* Navbar */}
       <nav
-        className={`flex justify-center items-center p-10 h-[5vw] fixed top-0 left-0 w-full z-50 transition-all duration-500 
+        className={`flex justify-between xl:justify-center items-center p-10 h-[5vw] fixed top-0 left-0 w-full z-50 transition-all duration-500 
         ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text "}`}
       >
         {/* Logo */}
-        <a href="#" className="text-3xl">BLUEKET</a>
+        <a href="#" className="text-xl sm:text-3xl">BLUEKET</a>
 
         {/* Links */}
-        <ul className="flex gap-7 text-xl mx-20">
+        <ul className="hidden xl:flex gap-7 text-xl mx-20  ">
           <li><a href="#" className="flex gap-1 items-center">Demo</a></li>
           <li><a href="#" className="flex gap-1 items-center">About us</a></li>
           <li><a href="#" className="flex gap-1 items-center">Services</a></li>
@@ -55,10 +55,10 @@ const Nav = () => {
         </ul>
 
         {/* Buttons */}
-        <div className="flex items-center gap-10 text-xl">
+        <div className="flex items-center gap-3 sm:gap-10 text-{10px} sm:text-xl ">
           {/* Call button */}
           <button 
-            className="bg-bg-500 text-text p-4 rounded-full hover:bg-hover-600" 
+            className="bg-bg-500 text-text p-3 rounded-full hover:bg-hover-600" 
             aria-label="get in touch"  
             onClick={toggleSidebar}
           >
@@ -68,15 +68,17 @@ const Nav = () => {
           {/* Get Started button */}
           <a 
             href="#" 
-            className="relative flex gap-2 p-4 px-6 bg-hover-500 text-text items-center rounded-4xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group"
+            className="relative flex gap-2 p-1  sm:px-6 sm:py-3  py-2 rounded-full bg-hover-500 text-text items-center   overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group"
             aria-label="Get Started with our services"
           >
-            <span className="relative z-10 flex gap-2 items-center">
+            <span className="relative z-10 flex gap-2  text-sm sm:text-xl items-center">
               Get Started <CgArrowTopRight />
             </span> 
             <div className="absolute inset-0 bg-gradient-to-b from-hover-700 to-hover-500 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out"></div>
           </a>
+          <button aria-label='open nav bar for mobile ' className='sm:text-3xl text-xl xl:hidden flex' onClick={toggleNav}><GiHamburgerMenu /></button>
         </div>
+        
       </nav>
 
       {/* Sidebar */}
@@ -116,6 +118,21 @@ const Nav = () => {
           </div>
         </div>
       </div>
+
+        {/** NAv bar for mobile */}
+        <nav className={`fixed top-0 left-0 h-full w-full max-w-sm bg-white text-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${isMobileNavOpen ? "translate-x-0" : "-translate-x-full"}`}>
+            <button onClick={toggleNav} className='flex justify-end w-full -ml-10 my-5  '>
+              <MdArrowBackIosNew className="text-3xl ml-auto" />
+            </button>
+            <ul className='flex-col'>
+              <li className='border-y-1 border-border-400 p-2 text-xl'><a href="">Demo</a></li>
+              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="" >About us</a></li>
+              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Services</a></li>
+              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Portfolio</a></li>
+              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Blogs</a></li>
+              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
   );
 };

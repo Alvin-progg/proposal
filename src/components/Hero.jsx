@@ -38,7 +38,7 @@ const Hero = () => {
               Get Started 
               <CgArrowTopRight />
             </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-bg-600 to-bg-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-bg-600 to-bg-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
           </a>
         </div>
       </div>
