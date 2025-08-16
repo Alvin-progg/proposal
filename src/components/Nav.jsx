@@ -81,37 +81,37 @@ const Nav = () => {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-full max-w-md bg-bg-50 text-text-black shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed top-0 right-0 h-full w-full max-w-xl bg-bg-50 text-text-black shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       >
-        <div className="m-10">
-          <div className="items-center m-5 gap-5 justify-between flex">
+        <div className="mx-5 mt-3 p-5 justify-center items-center flex-col ">
+          <div className="items-center  gap-5 justify-between flex">
             <h3 className="text-2xl">BLUEKET</h3>
             <button aria-label="exit sidebar" onClick={toggleSidebar}>
-              <MdOutlineExitToApp className="text-2xl" />
+              <MdOutlineExitToApp className="text-3xl" />
             </button>
           </div>
-          <div>
-            <h2 className="text-2xl">Get In Touch</h2>
-            <h3>Please fill out the form below if you have a plan or project in mind that you'd like to share with us.</h3>
+          <div className='mt-10 gap-5 flex-col py-3 '>
+            <h2 className="text-2xl ">Get In Touch</h2>
+            <h3 className='font-light'>Please fill out the form below if you have a plan or project in mind that you'd like to share with us.</h3>
+          </div>
+          <div className='my-10  flex-col py-5'>
+            <h3 className='font-light'>We're Available 24/7. Call Now.</h3>
+            <p className="flex items-center gap-2"><FaPhoneSquareAlt className='text-xl' /> 91 123 4567 890</p>
+            <p className="flex items-center gap-2 "><FaPhoneSquareAlt className='text-xl'  /> 91 123 4567 890</p>
           </div>
           <div>
-            <h3>We're Available 24/7. Call Now.</h3>
-            <p className="flex items-center"><FaPhoneSquareAlt /> 91 123 4567 890</p>
-            <p className="flex items-center"><FaPhoneSquareAlt /> 91 123 4567 890</p>
+            <h3 className='font-light mb-3'>Send Us an Email:</h3>
+            <p className="flex items-center gap-2"><MdEmail className='text-xl' /> hr@yourwebsite.com</p>
+            <p className="flex items-center gap-2"><MdEmail className='text-xl' /> info@yourwebsite.com</p>
           </div>
-          <div>
-            <h3>Send Us an Email:</h3>
-            <p className="flex items-center"><MdEmail /> hr@yourwebsite.com</p>
-            <p className="flex items-center"><MdEmail /> hr@yourwebsite.com</p>
-          </div>
-          <div>
-            <h3>Follow Us:</h3>
-            <ul className="flex items-center gap-4">
-              <li><a href=""><FaTwitter /></a></li>
-              <li><a href=""><FaFacebookF /></a></li>
-              <li><a href=""><IoLogoYoutube /></a></li>
-              <li><a href=""><FaLinkedinIn /></a></li>
-              <li><a href=""><IoLogoInstagram /></a></li>
+          <div className='my-10 py-3 h-auto flex-col'>
+            <h3 className='font-light '>Follow Us</h3>
+            <ul className="flex items-center gap-4 text-2xl mt-5 text-gray-600">
+              <li><a href="" className='hover:text-hover-600'><FaTwitter /></a></li>
+              <li><a href="" className='hover:text-hover-600'><FaFacebookF /></a></li>
+              <li><a href="" className='hover:text-hover-600'><IoLogoYoutube /></a></li>
+              <li><a href="" className='hover:text-hover-600'><FaLinkedinIn /></a></li>
+              <li><a href="" className='hover:text-hover-600'><IoLogoInstagram /></a></li>
             </ul>
           </div>
         </div>
