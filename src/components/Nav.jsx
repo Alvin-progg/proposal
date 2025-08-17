@@ -5,7 +5,8 @@ import { CgArrowTopRight } from "react-icons/cg";
 import { IoLogoYoutube, IoLogoInstagram } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdArrowBackIosNew } from "react-icons/md";
-
+import logoWhite from '../assets/logo-white.svg';
+import logoBlack from '../assets/logo-black.svg';
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,7 @@ const Nav = () => {
         ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text "}`}
       >
         {/* Logo */}
-        <a href="#" className="text-xl sm:text-3xl">BLUEKET</a>
+        <a href="#" className="text-xl "><img src={!scrolled ? logoWhite : logoBlack} alt="Logo" className="h-10 w-auto" /></a>
 
         {/* Links */}
         <ul className="hidden xl:flex gap-7 text-xl mx-20  ">
