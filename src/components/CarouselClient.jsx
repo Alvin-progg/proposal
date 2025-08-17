@@ -5,7 +5,7 @@ import 'swiper/css';
 import { Autoplay , Navigation } from 'swiper/modules';
 const CarouselClient = () => {
   return (
-    <div className='max-w-7xl mx-auto overflow-hidden px-8'> 
+    <div className='max-w-7xl mx-auto overflow-hidden px-8 mt-10 '> 
             <Swiper
                 rewind={true}
                 spaceBetween={10}
