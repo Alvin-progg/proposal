@@ -1,5 +1,6 @@
 import React from 'react'
 import CarouselClient from './CarouselClient'
+import AppIcon from '../assets/icons/app.png'
 
 
 const Services = () => {
@@ -19,7 +20,7 @@ const Services = () => {
         <div>
             <div>
               <div className=''>
-                <img src="./assets/slider-2.jpg" alt="app-png" loading='lazy'  className='bg-bg rounded-2xl h-10 w-10'/>
+                <img src={AppIcon} alt="app-png" loading='lazy'  className='bg-bg rounded-2xl h-10 w-10'/>
                 <h2>App Development</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laudantium labore iste aliquid. Amet labore error incidunt qui voluptatem suscipit culpa, dolore ab omnis nemo assumenda aliquid laboriosam, in ex.</p>
               </div>
