@@ -21,21 +21,6 @@
   --color-bg-800: #3730A3;
   --color-bg-900: #312E81;
 
-
-  /** Background Pale*/
-  --color-pale-50:  #FEFCFC;
-  --color-pale-100: #FDF8F8;
-  --color-pale-200: #dde3da;
-  --color-pale-300: #F9D5D5;
-  --color-pale-400: #F5B5B5;
-  --color-pale-500: #F08A8A;
-  --color-pale-600: #E85E5E;
-  --color-pale-700: #DC3F3F;
-  --color-pale-800: #B73333;
-  --color-pale-900: #8B2828;
-
-  
-
   /* Hover (Orange palette) */
   --color-hover-50:  #FFF7ED;
   --color-hover-100: #FFEDD5;
@@ -61,5 +46,9 @@
 
   /**/
   --color-bg:#ffffff;
+
+    /* BG color for service component*/
+
+    
 }
 
