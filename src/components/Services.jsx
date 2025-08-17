@@ -20,36 +20,36 @@ const Services = () => {
             
         </div>
 
-        <div className='row flex max-sm:flex-col justify-center items-center my-10 gap-14'>
-          <div className='h-[285px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-hover-400 '>
-              <div className='flex items-center justify-center itemce h-[120px] rounded-4xl mx-auto -mt-10  bg-bg w-[120px] '><img src={AppIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
-              <div className='text-center gap-10 p-2 py-10 '>
+        <div className='  flex max-sm:flex-col justify-center items-center my-10 gap-14'>
+          <div className='h-[286px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-serv-1 '>
+              <div className='flex items-center justify-center itemce h-[120px] rounded-4xl mx-auto -mt-10  bg-bg w-[120px] drop-shadow-2xl '><img src={AppIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
+              <div className='text-center gap-10 p-2 py-10 justify-center flex-col items-center '>
                 <h2 className='font-semibold text-xl w-[156px] mx-auto'>App Development</h2>
                 <p className='font-light  '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
               
           </div>
-            <div className='h-[285px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-hover-400 '>
-              <div className='flex items-center justify-center itemce h-[120px] rounded-3xl mx-auto -mt-10  bg-bg w-[120px]'><img src={UX} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
-              <div className='text-center gap-5 flex-col p-2 py-10'>
+            <div className='h-[286px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-serv-2 '>
+              <div className='flex items-center justify-center itemce h-[120px] rounded-3xl mx-auto -mt-10  bg-bg w-[120px] drop-shadow-2xl'><img src={UX} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
+              <div className='text-center gap-5  p-2 py-10 justify-center flex-col items-center'>
                 <h2 className='font-semibold text-xl  w-[156px] mx-auto'>Web Development</h2>
                 <p className='font-light'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
               
           </div>
-                    <div className='h-[285px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-hover-400 '>
-              <div className='flex items-center justify-center itemce h-[120px] rounded-3xl mx-auto -mt-10  bg-bg w-[120px]'><img src={ContentIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
-              <div className='text-center gap-5 flex-col p-2 py-10'>
+                    <div className='h-[286px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-serv-3 '>
+              <div className='flex items-center justify-center itemce h-[120px] rounded-3xl mx-auto -mt-10  bg-bg w-[120px] drop-shadow-2xl '><img src={ContentIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
+              <div className='text-center gap-5  p-2 py-10 justify-center flex-col items-center'>
                 <h2 className='font-semibold text-xl  w-[156px] mx-auto'>Content Marketing</h2>
                 <p className='font-light'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
               
           </div>
-                    <div className='h-[285px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-hover-400 '>
-              <div className='flex items-center justify-center itemce h-[120px] rounded-3xl mx-auto -mt-10  bg-bg w-[120px]'><img src={ShopIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
-              <div className='text-center gap-5 flex-col mt-5 p-2 py-5'>
-                <h2 className='font-semibold text-xl  w-[156px] mx-auto text-text'>E Commerce Development</h2>
-                <p className='font-light'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div className='h-[286px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-serv-4 '>
+              <div className='flex items-center justify-center itemce h-[120px] rounded-3xl mx-auto -mt-10  bg-bg w-[120px] drop-shadow-2xl'><img src={ShopIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
+              <div className='text-center gap-5 flex-col mt-5 p-2 py-5 justify-center items-center'>
+                <h2 className='font-semibold text-xl  w-[156px] mx-auto text-text'>eCommerce Development</h2>
+                <p className='font-light text-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               </div>
               
           </div>
