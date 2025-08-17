@@ -20,7 +20,7 @@ const Services = () => {
             
         </div>
 
-        <div className='  flex max-sm:flex-col justify-center items-center my-10 gap-14'>
+        <div className=' grid grid-1  md:grid-cols-2 md:grid-rows-2  sm:grid-rows-2 mx-auto lg:flex sm:grid-cols-2 max-sm:flex-col justify-center items-center lg:m-10 gap-14 max-md:mt-14 sm:mx-15 md:mx-30'>
           <div className='h-[286px] w-[286px] text-center items-center flex-col  justify-center rounded-2xl bg-serv-1 '>
               <div className='flex items-center justify-center itemce h-[120px] rounded-4xl mx-auto -mt-10  bg-bg w-[120px] drop-shadow-2xl '><img src={AppIcon} alt="App dev" loading='lazy' className='h-[64px] w-[64px]' /></div>
               <div className='text-center gap-10 p-2 py-10 justify-center flex-col items-center '>
