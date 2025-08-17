@@ -39,11 +39,11 @@ const Nav = () => {
 
       {/* Navbar */}
       <nav
-        className={`flex justify-between xl:justify-center items-center p-10 h-[5vw] fixed top-0 left-0 w-full z-50 transition-all duration-500 
+        className={`flex justify-between xl:justify-center max-md:gap-15 items-center p-10 h-[5vw] fixed top-0 left-0 w-full z-50 transition-all duration-500 
         ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text "}`}
       >
         {/* Logo */}
-        <a href="#" className="text-xl "><img src={!scrolled ? logoWhite : logoBlack} alt="Logo" loading='lazy' className="h-10 w-auto" /></a>
+        <a href="#" className=""><img src={!scrolled ? logoWhite : logoBlack} alt="Logo" loading='lazy' className="h-10 " /></a>
 
         {/* Links */}
         <ul className="hidden xl:flex gap-7 text-xl mx-20  ">
@@ -56,10 +56,10 @@ const Nav = () => {
         </ul>
 
         {/* Buttons */}
-        <div className="flex items-center gap-3 sm:gap-10 text-{10px} sm:text-xl ">
+        <div className="flex items-center gap-2 text-{10px} sm:text-xl ">
           {/* Call button */}
           <button 
-            className="bg-bg-500 text-text p-3 rounded-full hover:bg-hover-600" 
+            className="bg-bg-500 text-text p-3 max-md:px-1 rounded-full hover:bg-hover-600" 
             aria-label="get in touch"  
             onClick={toggleSidebar}
           >
@@ -69,11 +69,11 @@ const Nav = () => {
           {/* Get Started button */}
           <a 
             href="#" 
-            className="relative flex gap-2 p-1  sm:px-6 sm:py-3  py-2 rounded-full bg-hover-500 text-text items-center   overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group"
+            className="relative flex gap-2 p-1   sm:py-3  py-2  max-sm:py-1  rounded-full max-md:rounded-2xl px-4 bg-hover-500 text-text items-center   overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group"
             aria-label="Get Started with our services"
           >
-            <span className="relative z-10 flex gap-2  text-sm sm:text-xl items-center">
-              Get Started <CgArrowTopRight />
+            <span className="relative z-10 flex gap-2 max-md:px-5   text-[10px] lg:text-xl items-center">
+              Get Started <CgArrowTopRight  className='max-md:hidden' />
             </span> 
             <div className="absolute inset-0 bg-gradient-to-b from-hover-700 to-hover-500 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out"></div>
           </a>
