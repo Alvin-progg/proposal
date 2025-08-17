@@ -43,7 +43,7 @@ const Nav = () => {
         ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text "}`}
       >
         {/* Logo */}
-        <a href="#" className="text-xl "><img src={!scrolled ? logoWhite : logoBlack} alt="Logo" className="h-10 w-auto" /></a>
+        <a href="#" className="text-xl "><img src={!scrolled ? logoWhite : logoBlack} alt="Logo" loading='lazy' className="h-10 w-auto" /></a>
 
         {/* Links */}
         <ul className="hidden xl:flex gap-7 text-xl mx-20  ">
@@ -88,7 +88,7 @@ const Nav = () => {
       >
         <div className="mx-5 mt-3 p-5 justify-center items-center flex-col ">
           <div className="items-center  gap-5 justify-between flex">
-            <h3 className="text-2xl">BLUEKET</h3>
+            <img src={logoBlack} alt="logo" loading='lazy' className='h-10' />
             <button aria-label="exit sidebar" onClick={toggleSidebar}>
               <MdOutlineExitToApp className="text-3xl" />
             </button>
@@ -97,7 +97,7 @@ const Nav = () => {
             <h2 className="text-2xl ">Get In Touch</h2>
             <h3 className='font-light'>Please fill out the form below if you have a plan or project in mind that you'd like to share with us.</h3>
           </div>
-          <div className='my-10  flex-col py-5'>
+          <div className='my-10  flex-col gap-5 '>
             <h3 className='font-light'>We're Available 24/7. Call Now.</h3>
             <p className="flex items-center gap-2"><FaPhoneSquareAlt className='text-xl' /> 91 123 4567 890</p>
             <p className="flex items-center gap-2 "><FaPhoneSquareAlt className='text-xl'  /> 91 123 4567 890</p>
