@@ -7,14 +7,16 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdArrowBackIosNew } from "react-icons/md";
 import logoWhite from '../assets/logo-white.svg';
 import logoBlack from '../assets/logo-black.svg';
+
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const [isMobileNavOpen , setisMobileNavOpen] = useState(false);
+  const [isMobileNavOpen, setisMobileNavOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
   };
+  
   const toggleNav = () => {
     setisMobileNavOpen(!isMobileNavOpen)
   }
@@ -29,7 +31,6 @@ const Nav = () => {
 
   return (
     <header className="m-0 p-0 relative">
-      {/* Sidebar backdrop */}
       {isOpen && (
         <div 
           className="fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"
@@ -37,70 +38,81 @@ const Nav = () => {
         />
       )}
 
-      {/* Navbar */}
       <nav
-        className={`flex justify-between xl:justify-center max-md:gap-15 items-center p-10 h-[5vw] fixed top-0 left-0 w-full z-50 transition-all duration-500 
-        ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text "}`}
+        className={`flex justify-between items-center px-6 py-4 h-auto fixed top-0 left-0 w-full z-50 transition-all duration-500 
+        xl:px-10 xl:justify-center xl:gap-20
+        ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text"}`}
       >
-        {/* Logo */}
-        <a href="#" className=""><img src={!scrolled ? logoWhite : logoBlack} alt="Logo" loading='lazy' className="h-10 " /></a>
+        <a href="#" className="flex-shrink-0">
+          <img 
+            src={!scrolled ? logoWhite : logoBlack} 
+            alt="Logo" 
+            loading='lazy' 
+            className="h-8 lg:h-10" 
+          />
+        </a>
 
-        {/* Links */}
-        <ul className="hidden xl:flex gap-7 text-xl mx-20  ">
-          <li><a href="#" className="flex gap-1 items-center">Demo</a></li>
-          <li><a href="#" className="flex gap-1 items-center">About us</a></li>
-          <li><a href="#" className="flex gap-1 items-center">Services</a></li>
-          <li><a href="#" className="flex gap-1 items-center">Portfolio</a></li>
-          <li><a href="#" className="flex gap-1 items-center">Blogs</a></li>
-          <li><a href="#" className="flex gap-1 items-center">Contact Us</a></li>
+        <ul className="hidden xl:flex items-center gap-6 text-lg xl:gap-8 xl:text-xl">
+          <li><a href="#" className="">Demo</a></li>
+          <li><a href="#" className="">About Us</a></li>
+          <li><a href="#" className="">Services</a></li>
+          <li><a href="#" className="">Portfolio</a></li>
+          <li><a href="#" className="">Blog</a></li>
+          <li><a href="#" className="">Contact Us</a></li>
         </ul>
 
-        {/* Buttons */}
-        <div className="flex items-center gap-2 text-{10px} sm:text-xl ">
-          {/* Call button */}
+        <div className="flex items-center gap-3">
           <button 
-            className="bg-bg-500 text-text p-3 max-md:px-1 rounded-full hover:bg-hover-600" 
-            aria-label="get in touch"  
+            className="bg-bg-500 text-text p-3 rounded-full hover:bg-hover-600 transition-all duration-300 flex-shrink-0" 
+            aria-label="Get in touch"  
             onClick={toggleSidebar}
           >
-            <FaPhone />
+            <FaPhone className="text-sm lg:text-base" />
           </button>
 
-          {/* Get Started button */}
           <a 
             href="#" 
-            className="relative flex gap-2 p-1   sm:py-3  py-2  max-sm:py-1  rounded-full max-md:rounded-2xl px-4 bg-hover-500 text-text items-center   overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group"
+            className="relative flex items-center justify-center gap-2 bg-hover-500 text-text rounded-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group flex-shrink-0
+              px-3 py-2 text-sm min-w-[90px]
+              sm:px-4 sm:py-3 sm:text-base sm:min-w-[120px]
+              lg:px-6 lg:py-3 lg:text-lg lg:min-w-[140px]"
             aria-label="Get Started with our services"
           >
-            <span className="relative z-10 flex gap-2 max-md:px-5   text-[10px] lg:text-xl items-center">
-              Get Started <CgArrowTopRight  className='max-md:hidden' />
+            <span className="relative z-10 flex items-center gap-2 font-medium">
+              Get Started 
+              <CgArrowTopRight className="hidden sm:block text-lg lg:text-xl" />
             </span> 
             <div className="absolute inset-0 bg-gradient-to-b from-hover-700 to-hover-500 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out"></div>
           </a>
-          <button aria-label='open nav bar for mobile ' className='sm:text-3xl text-xl xl:hidden flex' onClick={toggleNav}><GiHamburgerMenu /></button>
+
+          <button 
+            aria-label='Open navigation menu' 
+            className='text-xl xl:hidden flex-shrink-0 p-1' 
+            onClick={toggleNav}
+          >
+            <GiHamburgerMenu />
+          </button>
         </div>
-        
       </nav>
 
-      {/* Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full w-full max-w-xl bg-bg-50 text-text-black shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed top-0 right-0 h-full w-full max-w-4xl bg-bg-50 text-text-black shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       >
-        <div className="mx-5 mt-3 p-5 justify-center items-center flex-col ">
-          <div className="items-center  gap-5 justify-between flex">
+        <div className="mx-5 mt-3 p-5 justify-center items-center flex-col">
+          <div className="items-center gap-5 justify-between flex">
             <img src={logoBlack} alt="logo" loading='lazy' className='h-10' />
-            <button aria-label="exit sidebar" onClick={toggleSidebar}>
+            <button aria-label="Close sidebar" onClick={toggleSidebar}>
               <MdOutlineExitToApp className="text-3xl" />
             </button>
           </div>
-          <div className='mt-10 gap-5 flex-col py-3 '>
-            <h2 className="text-2xl ">Get In Touch</h2>
+          <div className='mt-10 gap-5 flex-col py-3'>
+            <h2 className="text-2xl">Get In Touch</h2>
             <h3 className='font-light'>Please fill out the form below if you have a plan or project in mind that you'd like to share with us.</h3>
           </div>
-          <div className='my-10  flex-col gap-5 '>
+          <div className='my-10 flex-col gap-5'>
             <h3 className='font-light'>We're Available 24/7. Call Now.</h3>
             <p className="flex items-center gap-2"><FaPhoneSquareAlt className='text-xl' /> 91 123 4567 890</p>
-            <p className="flex items-center gap-2 "><FaPhoneSquareAlt className='text-xl'  /> 91 123 4567 890</p>
+            <p className="flex items-center gap-2"><FaPhoneSquareAlt className='text-xl' /> 91 123 4567 890</p>
           </div>
           <div>
             <h3 className='font-light mb-3'>Send Us an Email:</h3>
@@ -108,7 +120,7 @@ const Nav = () => {
             <p className="flex items-center gap-2"><MdEmail className='text-xl' /> info@yourwebsite.com</p>
           </div>
           <div className='my-10 py-3 h-auto flex-col'>
-            <h3 className='font-light '>Follow Us</h3>
+            <h3 className='font-light'>Follow Us</h3>
             <ul className="flex items-center gap-4 text-2xl mt-5 text-gray-600">
               <li><a href="" className='hover:text-hover-600'><FaTwitter /></a></li>
               <li><a href="" className='hover:text-hover-600'><FaFacebookF /></a></li>
@@ -120,20 +132,37 @@ const Nav = () => {
         </div>
       </div>
 
-        {/** NAv bar for mobile */}
-        <nav className={`fixed top-0 left-0 h-full w-full max-w-sm bg-white text-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${isMobileNavOpen ? "translate-x-0" : "-translate-x-full"}`}>
-            <button onClick={toggleNav} className='flex justify-end w-full -ml-10 my-5  '>
-              <MdArrowBackIosNew className="text-3xl ml-auto" />
-            </button>
-            <ul className='flex-col'>
-              <li className='border-y-1 border-border-400 p-2 text-xl'><a href="">Demo</a></li>
-              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="" >About us</a></li>
-              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Services</a></li>
-              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Portfolio</a></li>
-              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Blogs</a></li>
-              <li className='border-b-1 border-border-400 p-2 text-xl'><a href="">Contact Us</a></li>
-            </ul>
-        </nav>
+      <nav className={`fixed top-0 left-0 h-full w-full max-w-sm bg-white text-gray-900 shadow-2xl z-50 transform transition-transform duration-300 ease-in-out xl:hidden ${isMobileNavOpen ? "translate-x-0" : "-translate-x-full"}`}>
+        <div className="p-6">
+          <button 
+            onClick={toggleNav} 
+            className='flex justify-end w-full mb-8'
+            aria-label="Close navigation menu"
+          >
+            <MdArrowBackIosNew className="text-3xl" />
+          </button>
+          <ul className='flex flex-col'>
+            <li className='border-b border-gray-200 py-4'>
+              <a href="" className="text-lg font-medium hover:text-hover-500 transition-colors">Demo</a>
+            </li>
+            <li className='border-b border-gray-200 py-4'>
+              <a href="" className="text-lg font-medium hover:text-hover-500 transition-colors">About Us</a>
+            </li>
+            <li className='border-b border-gray-200 py-4'>
+              <a href="" className="text-lg font-medium hover:text-hover-500 transition-colors">Services</a>
+            </li>
+            <li className='border-b border-gray-200 py-4'>
+              <a href="" className="text-lg font-medium hover:text-hover-500 transition-colors">Portfolio</a>
+            </li>
+            <li className='border-b border-gray-200 py-4'>
+              <a href="" className="text-lg font-medium hover:text-hover-500 transition-colors">Blog</a>
+            </li>
+            <li className='border-b border-gray-200 py-4'>
+              <a href="" className="text-lg font-medium hover:text-hover-500 transition-colors">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
   );
 };
