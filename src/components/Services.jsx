@@ -13,11 +13,10 @@ const Services = () => {
         
 
         <div className='  items-center justify-center mt-20 '>
-            <div className='p-5 flex-col items-center justify-center text-wrap gap-10 px-3 lg:w-[60vw] sm:mx-auto '>
+            <div className='p-5 flex-col items-center justify-center text-wrap gap-10 px-3 lg:w-[60vw] sm:mx-auto  '>
                 <h2 className=' justify-center-safe flex mb-5 font-bold text-2xl py-4 sm:text-4xl '>Service We Provide</h2>
-                <h3 className='justify-center-safe flex font-light  text-center  mx-auto w-[375px] sm:w-[540px] lg:w-[641px]  '>Blueket overcomes challenges, achieves results, and adds value to our clients and partners.Take a look at some of our clients' success stories.</h3>
+                <h3 className='justify-center-safe flex font-light  text-center  mx-auto w-[375px] sm:w-[540px] lg:w-[641px] max-sm:text-sm max-sm:w-[320px]  '>Blueket overcomes challenges, achieves results, and adds value to our clients and partners.Take a look at some of our clients' success stories.</h3>
             </div>
-            
         </div>
 
         <div className=' grid grid-1  md:grid-cols-2 md:grid-rows-2  sm:grid-rows-2 mx-auto lg:flex sm:grid-cols-2 max-sm:flex-col justify-center items-center lg:m-10 gap-14 max-md:mt-14 sm:mx-15 md:mx-30'>

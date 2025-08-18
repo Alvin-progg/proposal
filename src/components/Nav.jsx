@@ -39,8 +39,8 @@ const Nav = () => {
       )}
 
       <nav
-        className={`flex justify-between items-center px-6 py-4 h-auto fixed top-0 left-0 w-full z-50 transition-all duration-500 
-        xl:px-10 xl:justify-center xl:gap-20
+        className={`flex justify-between items-center px-3 py-3 h-auto fixed top-0 left-0 w-full z-50 transition-all duration-500 
+        sm:px-6 sm:py-4 xl:px-10 xl:justify-center xl:gap-20
         ${scrolled ? "backdrop-blur-md bg-bg-50/30 shadow-sm text-text-black" : "bg-transparent text-text"}`}
       >
         <a href="#" className="flex-shrink-0">
@@ -48,46 +48,47 @@ const Nav = () => {
             src={!scrolled ? logoWhite : logoBlack} 
             alt="Logo" 
             loading='lazy' 
-            className="h-8 lg:h-10" 
+            className="h-6 sm:h-8 lg:h-10" 
           />
         </a>
 
         <ul className="hidden xl:flex items-center gap-6 text-lg xl:gap-8 xl:text-xl">
-          <li><a href="#" className="">Demo</a></li>
-          <li><a href="#" className="">About Us</a></li>
-          <li><a href="#" className="">Services</a></li>
-          <li><a href="#" className="">Portfolio</a></li>
-          <li><a href="#" className="">Blog</a></li>
-          <li><a href="#" className="">Contact Us</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors">Demo</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors">About Us</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors">Services</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors">Portfolio</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors">Blog</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors">Contact Us</a></li>
         </ul>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1 sm:gap-3">
           <button 
-            className="bg-bg-500 text-text p-3 rounded-full hover:bg-hover-600 transition-all duration-300 flex-shrink-0" 
+            className="bg-bg-500 text-text p-2 sm:p-3 rounded-full hover:bg-hover-600 transition-all duration-300 flex-shrink-0" 
             aria-label="Get in touch"  
             onClick={toggleSidebar}
           >
-            <FaPhone className="text-sm lg:text-base" />
+            <FaPhone className="text-xs sm:text-sm lg:text-base" />
           </button>
 
           <a 
             href="#" 
-            className="relative flex items-center justify-center gap-2 bg-hover-500 text-text rounded-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group flex-shrink-0
-              px-3 py-2 text-sm min-w-[90px]
-              sm:px-4 sm:py-3 sm:text-base sm:min-w-[120px]
+            className="relative flex items-center justify-center gap-1 bg-hover-500 text-text rounded-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group flex-shrink-0
+              px-2 py-1.5 text-xs min-w-[70px]
+              sm:px-3 sm:py-2 sm:text-sm sm:min-w-[90px] sm:gap-2
+              md:px-4 md:py-3 md:text-base md:min-w-[120px]
               lg:px-6 lg:py-3 lg:text-lg lg:min-w-[140px]"
             aria-label="Get Started with our services"
           >
-            <span className="relative z-10 flex items-center gap-2 font-medium">
+            <span className="relative z-10 flex items-center gap-1 sm:gap-2 font-medium">
               Get Started 
-              <CgArrowTopRight className="hidden sm:block text-lg lg:text-xl" />
+              <CgArrowTopRight className="hidden sm:block text-sm md:text-lg lg:text-xl" />
             </span> 
             <div className="absolute inset-0 bg-gradient-to-b from-hover-700 to-hover-500 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-in-out"></div>
           </a>
 
           <button 
             aria-label='Open navigation menu' 
-            className='text-xl xl:hidden flex-shrink-0 p-1' 
+            className='text-lg sm:text-xl xl:hidden flex-shrink-0 p-1' 
             onClick={toggleNav}
           >
             <GiHamburgerMenu />
