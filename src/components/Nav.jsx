@@ -53,12 +53,12 @@ const Nav = () => {
         </a>
 
         <ul className="hidden xl:flex items-center gap-6 text-lg xl:gap-8 xl:text-xl">
-          <li><a href="#" className="hover:text-hover-500 transition-colors">Demo</a></li>
-          <li><a href="#" className="hover:text-hover-500 transition-colors">About Us</a></li>
-          <li><a href="#" className="hover:text-hover-500 transition-colors">Services</a></li>
-          <li><a href="#" className="hover:text-hover-500 transition-colors">Portfolio</a></li>
-          <li><a href="#" className="hover:text-hover-500 transition-colors">Blog</a></li>
-          <li><a href="#" className="hover:text-hover-500 transition-colors">Contact Us</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors" aria-label='demo'>Demo</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors" aria-label='about'>About Us</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors" aria-label='Service'>Services</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors" aria-label='portfolio'>Portfolio</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors" aria-label='Blog'>Blog</a></li>
+          <li><a href="#" className="hover:text-hover-500 transition-colors" aria-label='contact'>Contact Us</a></li>
         </ul>
 
         <div className="flex items-center gap-1 sm:gap-3">
