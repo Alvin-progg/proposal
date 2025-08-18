@@ -30,7 +30,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <header className="m-0 p-0 relative">
+    <div className="m-0 p-0 relative">
       {isOpen && (
         <div 
           className="fixed inset-0 bg-black/50 z-40 transition-opacity duration-300"
@@ -164,7 +164,7 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 

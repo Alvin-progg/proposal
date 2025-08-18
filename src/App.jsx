@@ -7,11 +7,16 @@ import Services from './components/Services'
 
 const App = () => {
   return (
-    <main className=''>
+    <>
+      <header>
         <Nav/>
         <Hero/>
+      </header>
+      <main className=''>
         <Services/>
-    </main>
+      </main>
+    </>
+
   )
 }
 
