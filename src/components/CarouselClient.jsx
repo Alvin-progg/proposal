@@ -7,13 +7,14 @@ const CarouselClient = () => {
   return (
     <div className='max-w-7xl mx-auto overflow-hidden px-8 mt-10 '> 
             <Swiper
+                
                 rewind={true}
                 spaceBetween={10}
                 navigation={false}
                 slidesPerView="5"
                 centeredSlides={true}
                 loop={true}
-                autoplay={{ delay: 1000, disableOnInteraction: false }}
+                autoplay={{ delay: 1000, disableOnInteraction: false , }}
                 modules={[Autoplay , Navigation]}
                 className="mySwiper"
                 >
