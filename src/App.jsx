@@ -3,6 +3,8 @@ import React from 'react'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Services from './components/Services'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
 
 
 const App = () => {
@@ -12,8 +14,10 @@ const App = () => {
         <Nav/>
         <Hero/>
       </header>
-      <main className=''>
+      <main >
         <Services/>
+        <About/>
+        <Portfolio/>
       </main>
     </>
 
