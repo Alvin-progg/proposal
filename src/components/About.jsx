@@ -20,7 +20,7 @@ const About = () => {
     if (e.target === e.currentTarget) {
       closeModal();
     }
-  }; */}
+  };*/}
 
   return (
     <section className='w-full overflow-hidden h-[660px] bg-serv-1 my-10 flex justify-center items-center'>
