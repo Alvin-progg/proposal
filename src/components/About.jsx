@@ -1,6 +1,8 @@
 import React from 'react'
 import { AiOutlineMinus } from "react-icons/ai";
 import { FaPlay } from "react-icons/fa";
+import Office1 from '../assets/common/office-3.jpg'
+import Office2 from '../assets/common/office-4.jpg'
 
 const About = () => {
 {/**
@@ -22,9 +24,9 @@ const About = () => {
 
   return (
     <section className='w-full overflow-hidden h-[660px] bg-serv-1 my-10 flex justify-center items-center'>
-      <div className='h-[460px] w-full flex justify-center'>
-        <div className='w-[770px] gap-4 '>
-          <h2 className='flex  items-center text-hover-600'> < AiOutlineMinus/> WHO WE ARE</h2>
+      <div className='h-[460px] w-full flex justify-center '>
+        <div className='w-[770px] gap-4 flex-col '>
+          <h2 className='flex  items-center text-hover-600 gap-4 font-light'> < AiOutlineMinus className='font-semibold'/> WHO WE ARE</h2>
           <h2 className='font-semibold text-4xl '>Hire the Best Web and Mobile App Developers For Your Project</h2>
           <p>Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web, mobile, and linked platforms. Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web, mobile, and linked platforms.</p>
           <p>Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web.</p>
@@ -41,10 +43,13 @@ const About = () => {
             </button>
           </div>
 
-          <div>
+        </div>
+        
+          <div className='h-[418px] flex items-center justify-center gap-5'>
+            <img src={Office1} alt="Office pic" loading='lazy' className='rounded-2xl' />
+            <img src={Office2} alt="Office pic2" loading='lazy 'className='mt-20 rounded-2xl '/>
             
           </div>
-        </div>
       </div>
     </section>
   )
