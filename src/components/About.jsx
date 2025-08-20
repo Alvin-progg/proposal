@@ -24,8 +24,8 @@ const About = () => {
 
   return (
     <section className='w-full overflow-hidden h-[660px] bg-serv-1 my-10 flex justify-center items-center'>
-      <div className='h-[460px] w-full flex justify-center '>
-        <div className='w-[770px] gap-4 flex-col '>
+      <div className='h-[460px] w-full flex justify-center my-auto'>
+        <div className='w-[770px]  flex-col flex gap-6 justify-start '>
           <h2 className='flex  items-center text-hover-600 gap-4 font-light'> < AiOutlineMinus className='font-semibold'/> WHO WE ARE</h2>
           <h2 className='font-semibold text-4xl '>Hire the Best Web and Mobile App Developers For Your Project</h2>
           <p>Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web, mobile, and linked platforms. Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web, mobile, and linked platforms.</p>
@@ -37,7 +37,7 @@ const About = () => {
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-bg-600 to-bg-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out"></div>
             </a>
-            <button aria-label='watch video'  className='flex items-center'>
+            <button aria-label='watch video'  className='flex items-center gap-1.5'>
               <FaPlay className=' text-bg-500 text-5xl p-3 bg-bg rounded-full '/>
               <p className='text-border-700'>Watch Video</p>
             </button>
