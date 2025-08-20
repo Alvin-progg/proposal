@@ -49,16 +49,7 @@ const About = () => {
         </div>
         
         <div className='h-[418px] flex items-center justify-center gap-5'>
-          <div className=" p-8 flex  top-2 right-4 ">
-            <svg width="180" height="180"> 
-              <defs>
-                <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <circle cx="2" cy="2" r="2" fill="var(--color-border-900)" />
-                </pattern>
-              </defs>
-              <rect width="180" height="180" fill="url(#dot-pattern)" />
-            </svg>
-          </div>
+
           <img src={Office1} alt="Office pic" loading='lazy' className='rounded-2xl w-[237px]' />
           <img src={Office2} alt="Office pic2" loading='lazy' className='mt-20 rounded-2xl w-[237px]'/>
         </div>
