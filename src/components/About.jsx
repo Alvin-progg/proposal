@@ -54,15 +54,16 @@ const About = () => {
         </div>
       </div>
       
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4" onClick={handleBackdropClick}>
-          <div className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden">
-              <button 
-                onClick={closeModal} 
-                className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10 bg-white/20 rounded-full p-2 hover:bg-white/30"
-              >
-                <LuX className='text-2xl' />
-              </button>
+        {isModalOpen && (
+          <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4" onClick={handleBackdropClick}>
+            <button 
+              onClick={closeModal} 
+              className="absolute top-8 right-8 text-text hover:text-gray-300 transition-colors z-10 bg-bg/20 rounded-full p-3 hover:bg-bg/30"
+            >
+              <LuX className='text-2xl' />
+            </button>
+            
+            <div className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden">
               <iframe
                 src={`https://www.youtube.com/embed/Aty3TV4Yn4I?autoplay=1&rel=0`}
                 title="YouTube video"
@@ -71,9 +72,9 @@ const About = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
+            </div>
           </div>
-        </div>
-      )}
+        )}
     </section>
   )
 }
