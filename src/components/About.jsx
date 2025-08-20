@@ -55,7 +55,7 @@ const About = () => {
       </div>
       
         {isModalOpen && (
-          <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4" onClick={handleBackdropClick}>
+          <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 w-full h-full " onClick={handleBackdropClick}>
             <button 
               onClick={closeModal} 
               className="absolute top-8 right-8 text-text hover:text-gray-300 transition-colors z-10 bg-bg/20 rounded-full p-3 hover:bg-bg/30"
