@@ -26,7 +26,7 @@ const About = () => {
 
   return (
     <section className='w-full overflow-hidden h-[660px] bg-serv-1 my-10 flex justify-center items-center'>
-      <div className='h-[460px] w-full flex justify-center my-auto'>
+      <div className='h-[460px] w-full flex justify-center my-auto     '>
         <div className='w-[770px] mx-4'>
             <div className='w-[746px] flex-col flex gap-6'>
               <h2 className='flex items-center text-hover-600 gap-4 font-light'><AiOutlineMinus className='font-semibold'/> WHO WE ARE</h2>
@@ -49,6 +49,16 @@ const About = () => {
         </div>
         
         <div className='h-[418px] flex items-center justify-center gap-5'>
+          <div className=" p-8 flex  top-2 right-4 ">
+            <svg width="180" height="180"> 
+              <defs>
+                <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <circle cx="2" cy="2" r="2" fill="var(--color-border-900)" />
+                </pattern>
+              </defs>
+              <rect width="180" height="180" fill="url(#dot-pattern)" />
+            </svg>
+          </div>
           <img src={Office1} alt="Office pic" loading='lazy' className='rounded-2xl w-[237px]' />
           <img src={Office2} alt="Office pic2" loading='lazy' className='mt-20 rounded-2xl w-[237px]'/>
         </div>
@@ -58,7 +68,7 @@ const About = () => {
           <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4 w-full h-full " onClick={handleBackdropClick}>
             <button 
               onClick={closeModal} 
-              className="absolute top-8 right-8 text-text hover:text-gray-300 transition-colors z-10 bg-bg/20 rounded-full p-3 hover:bg-bg/30"
+              className="absolute top-52 right-8 text-text hover:text-gray-300 transition-colors z-10 bg-bg/20 rounded-full p-3 hover:bg-bg/30"
             >
               <LuX className='text-2xl' />
             </button>
