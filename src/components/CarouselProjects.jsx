@@ -6,9 +6,9 @@ import {Projects} from '../constants/project.js'
 
 const CarouselProjects = () => {
   return (
-    <div className=' mt-10  w-full'>
+    <div className=' mt-10  w-full mx-5'>
         <Swiper
-        spaceBetween={1}
+        
         navigation={false}
         slidesPerView={4}
         centeredSlides={true}
@@ -20,7 +20,7 @@ const CarouselProjects = () => {
             pauseOnMouseEnter: true
         }}
         modules={[Autoplay]}
-        className="mySwiper  h-[466px]"
+        className="mySwiper h-[466px]"
         grabCursor={true}
         touchRatio={1}
         touchAngle={45}
@@ -30,7 +30,7 @@ const CarouselProjects = () => {
         freeMode={false}
         >
         {Projects.map((project) => (
-            <SwiperSlide id={project.id} className=' '>
+            <SwiperSlide id={project.id} className='mx-auto '>
                 <img src={project.img} alt="Project" loading='lazy' className='h-[364px] w-[364px] rounded-2xl ' />
                 <h2 className='py-3 text-xl font-semibold'>{project.title}</h2>
                 <p className='text-textGray-600'>{project.disc}</p>
