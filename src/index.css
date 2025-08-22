@@ -20,6 +20,28 @@
   --color-bg-700: #4338CA;
   --color-bg-800: #3730A3;
   --color-bg-900: #312E81;
+    /*BG gray*/
+  --color-bg1-50:  #F9FAFB;
+  --color-bg1-100: #F3F4F6;
+  --color-bg1-200: #E5E7EB;
+  --color-bg1-300: #D1D5DB;
+  --color-bg1-400: #9CA3AF;
+  --color-bg1-500: #6B7280;
+  --color-bg1-600: #4B5563;
+  --color-bg1-700: #374151;
+  --color-bg1-800: #1F2937;
+  --color-bg1-900: #111827;
+/*BG orangey*/
+  --color-bg2-50:  #FFF7ED;
+  --color-bg2-100: #FFEDD5;
+  --color-bg2-200: #FED7AA;
+  --color-bg2-300: #FDBA74;
+  --color-bg2-400: #FB923C;
+  --color-bg2-500: #F97316;
+  --color-bg2-600: #EA580C;
+  --color-bg2-700: #C2410C;
+  --color-bg2-800: #9A3412;
+  --color-bg2-900: #7C2D12;
 
   /* Hover (Orange palette) */
   --color-hover-50:  #FFF7ED;

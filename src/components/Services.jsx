@@ -7,7 +7,7 @@ import UX from "../assets/icons/ux-design.png";
 
 const Services = () => {
   return (
-    <section className="w-full h-auto overflow-hidden">
+    <section className="w-full h-[831px] overflow-hidden">
       <CarouselClient />
 
       <div className="  items-center justify-center mt-20 ">
