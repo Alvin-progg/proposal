@@ -14,7 +14,7 @@ const Review = () => {
         </h2>
       </div>
       <CarouselReview />
-      <div className="flex justify-between items-center">
+      <div className="flex item-center justify-between  ">
         <div className="flex flex-col w-[440px]">
           <h2>Read More Review On</h2>
           <p>
@@ -22,8 +22,6 @@ const Review = () => {
             quality service that loves everyone.
           </p>
         </div>
-      </div>
-      <div className="flex flex-col">
         <div className="flex ">
           <img
             src={Clutch}
