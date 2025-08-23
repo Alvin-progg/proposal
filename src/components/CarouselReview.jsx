@@ -10,7 +10,7 @@ const CarouselReview = () => {
       <Swiper
         spaceBetween={0}
         navigation={false}
-        slidesPerView={1}
+        slidesPerView={3}
         centeredSlides={true}
         loop={true}
         speed={1500}
@@ -20,7 +20,7 @@ const CarouselReview = () => {
           pauseOnMouseEnter: true,
         }}
         modules={[Autoplay]}
-        className="mySwiper h-[375px]"
+        className="mySwiper h-[429px]"
         grabCursor={true}
         touchRatio={1}
         touchAngle={45}
@@ -28,24 +28,36 @@ const CarouselReview = () => {
         resistanceRatio={0.85}
         allowTouchMove={true}
         freeMode={false}
-        /**
-                  breakpoints={{
+        breakpoints={{
           320: { slidesPerView: 2, spaceBetween: 10 },
           640: { slidesPerView: 3, spaceBetween: 15 },
           768: { slidesPerView: 4, spaceBetween: 20 },
           1024: { slidesPerView: 5, spaceBetween: 25 },
-        }} */
+        }}
       >
         {Reviews.map((review) => (
-            <SwiperSlide>
-              <div className="flex">
-                <img src={review.img} alt="Client" loading="lazy " className="h-[120px] w-[120px]" />
-                <div className="flex flex-col">
-                  <h2>{review.name}</h2>
-                  <h3>{review.occupation}</h3>
-                </div>
+          <SwiperSlide id={review.id}>
+            <div className="flex">
+              <img
+                src={review.img}
+                alt="Client"
+                loading="lazy "
+                className="h-[120px] w-[120px]"
+              />
+              <div className="flex flex-col">
+                <h2>{review.name}</h2>
+                <h3>{review.occupation}</h3>
               </div>
-            </SwiperSlide>
+            </div>
+            <p>{review.disc}</p>
+            <div className="flex justify-between items-center ">
+              <img
+                src="../assets/review/google.png"
+                alt="google icon"
+                loading="lazy"
+              />
+            </div>
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>
