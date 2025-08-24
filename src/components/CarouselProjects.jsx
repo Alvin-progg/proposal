@@ -6,7 +6,7 @@ import { Projects } from "../constants/project.js";
 
 const CarouselProjects = () => {
   return (
-    <div className=" mt-10   w-max-7xl  mx-5">
+    <div className=" mt-10   max-w-7xl  mx-auto">
       <Swiper
         spaceBetween={0}
         navigation={false}
@@ -29,10 +29,10 @@ const CarouselProjects = () => {
         allowTouchMove={true}
         freeMode={false}
         breakpoints={{
-          320: { slidesPerView: 2, spaceBetween: 10 },
-          640: { slidesPerView: 3, spaceBetween: 15 },
-          768: { slidesPerView: 4, spaceBetween: 20 },
-          1024: { slidesPerView: 5, spaceBetween: 25 },
+          320: { slidesPerView: 1, spaceBetween: 10 },
+          640: { slidesPerView: 2, spaceBetween: 15 },
+          768: { slidesPerView: 3, spaceBetween: 20 },
+          1024: { slidesPerView: 4, spaceBetween: 25 },
         }}
       >
         {Projects.map((project) => (
