@@ -41,7 +41,7 @@ const CarouselProjects = () => {
               src={project.img}
               alt="Project"
               loading="lazy"
-              className="h-[364px] w-[364px] rounded-2xl "
+              className="h-[364px] w-[364px] rounded-2xl object-cover "
             />
             <h2 className="py-3 text-xl font-semibold">{project.title}</h2>
             <p className="text-textGray-600">{project.disc}</p>
