@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio'
 import Tech from './components/Tech'
 import Why from './components/Why'
 import Review from './components/Review'
+import Blog from './components/Blog'
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
         <Tech/>
         <Why/>
         <Review/>
+        <Blog/>
       </main>
     </>
 
