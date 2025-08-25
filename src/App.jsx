@@ -10,7 +10,7 @@ import Why from './components/Why'
 import Review from './components/Review'
 import Blog from './components/Blog'
 import Doubt from './components/Doubt'
-
+import Foot from './components/Foot'
 
 const App = () => {
   return (
@@ -28,8 +28,10 @@ const App = () => {
         <Review/>
         <Blog/>
         <Doubt/>
-
       </main>
+      <footer>
+        <Foot/>
+      </footer>
     </>
 
   )

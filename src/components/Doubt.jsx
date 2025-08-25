@@ -6,7 +6,6 @@ import { Collapsible } from '../constants/collapsible';
 
 const Doubt = () => {
     const [activeIndex, setActiveIndex] = useState(0);
-
     const faqData = Collapsible;
 
     const toggleItem = (index) => {
@@ -14,8 +13,8 @@ const Doubt = () => {
     };
 
     return (
-        <section className='flex w-full justify-center overflow-hidden'>
-            <div className='flex justify-center my-10 gap-10'>
+        <section className='flex w-full justify-center items-center overflow-hidden'>
+            <div className='flex justify-center my-10 gap-10 '>
                 <img src={DoubtIcon} alt="Doubt Icon" loading='lazy' className='h-[530px] w-[530px]' />
 
                 <div>
