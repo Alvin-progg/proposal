@@ -13,7 +13,7 @@ const Doubt = () => {
     };
 
     return (
-        <section className='flex w-full justify-center items-center overflow-hidden'>
+        <section className='flex w-full justify-center items-center overflow-hidden h-[80vh]'>
             <div className='flex justify-center my-10 gap-10 '>
                 <img src={DoubtIcon} alt="Doubt Icon" loading='lazy' className='h-[530px] w-[530px]' />
 
