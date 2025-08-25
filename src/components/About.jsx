@@ -38,7 +38,7 @@ const About = () => {
     <section className='w-full  h-[660px] bg-serv-1 my-10 flex justify-center items-center overflow-hidden max-sm:h-[1035px] '>
       <div className='h-[460px] w-full flex justify-center my-auto max-lg:flex-col  '>
         <div className='w-[770px] mx-4 -mt-4  '>
-            <div className='w-[746px] flex-col flex gap-6'>
+            <div className='w-[700px] flex-col flex gap-6'>
               <h2 className='flex items-center text-hover-600 gap-4 font-light'><AiOutlineMinus className='font-semibold'/> WHO WE ARE</h2>
             <h2 className='font-semibold text-4xl'>Hire the Best Web and Mobile App Developers For Your Project</h2>
             <p className='text-textGray-700'>Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web, mobile, and linked platforms. Expertise helps Blueket tackle the world's most difficult challenges. Blueket provides digital products for worldwide brands on the web, mobile, and linked platforms.</p>
@@ -58,27 +58,9 @@ const About = () => {
           </div>
         </div>
         
-        <div className='h-[418px] flex items-center justify-center gap-5 overflow-hidden'>
-            {/**
-          <div className=" p-8 inline-block   absolute">
-            <svg width="150" height="150"> 
-              <defs>
-                <pattern id="dot-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                  <circle cx="2" cy="2" r="2" fill="var(--color-border-500)" />
-                </pattern>
-              </defs>
-              <rect width="180" height="180" fill="url(#dot-pattern)" />
-            </svg>
-            </div>
-            <div className="flex flex-col items-center space-y-2 absolute  ">
-              <div
-                className="w-[150px] h-[150px] rounded-full"
-                style={stripedStyle}
-              />
-            </div>
-             */}
-            <img src={Office1} alt="Office pic" loading='lazy' className='rounded-2xl w-[237px] ' />
-            <img src={Office2} alt="Office pic2" loading='lazy' className='mt-20 rounded-2xl w-[237px] '/>
+        <div className='h-[418px] flex items-center justify-center gap-5 '>
+            <img src={Office1} alt="Office pic" loading='lazy' className='rounded-2xl w-[275px] h-[418px] ' />
+            <img src={Office2} alt="Office pic2" loading='lazy' className='mt-20 rounded-2xl w-[275px] h-[418px] '/>
         </div>
       </div>
       
