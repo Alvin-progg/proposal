@@ -1,12 +1,25 @@
-# React + Vite
+# 📝 Website Development Checklist  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Setup  
+- [ ] Initialize project (`npx create-next-app` / `npm create vite@latest` / etc.)  
+- [ ] Setup version control (Git + GitHub)  
+- [ ] Configure environment variables (`.env`)  
+- [ ] Install dependencies (UI libraries, linting tools, etc.)  
 
-Currently, two official plugins are available:
+## 🎨 Design & Layout  
+- [ ] Create header & navigation  
+- [ ] Build landing/hero section  
+- [ ] Add content sections (About, Services, Projects, Contact, etc.)  
+- [ ] Implement responsive design (mobile-first)  
+- [ ] Add footer with links and socials  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Functionality  
+- [ ] Navigation links & smooth scroll  
+- [ ] Add animations/interactivity (Framer Motion, AOS, etc.)  
+- [ ] SEO setup (meta tags, titles, alt text, Open Graph)  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Testing  
+- [ ] Test on different browsers (Chrome, Firefox, Edge, Safari)  
+- [ ] Test on mobile and tablet devices  
+- [ ] Check accessibility (ARIA roles, color contrast)  
+- [ ] Fix console warnings and errors  
