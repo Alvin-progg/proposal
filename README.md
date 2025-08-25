@@ -3,7 +3,6 @@
 ## 🛠️ Setup  
 - [x] Initialize project (`npx create-next-app` / `npm create vite@latest` / etc.)  
 - [x] Setup version control (Git + GitHub)  
-- [x] Configure environment variables (`.env`)  
 - [x] Install dependencies (UI libraries, linting tools, etc.)  
 
 ## 🎨 Design & Layout  
