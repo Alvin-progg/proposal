@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import DoubtIcon from '../assets/icons/doubt.svg'
 import { AiOutlineMinus } from "react-icons/ai";
 import { MdKeyboardArrowDown } from "react-icons/md";
 const Doubt = () => {
+
+const [isOpen,setIsOpen] = useState(false)
+
+
     return (
         <section className='flex w-full justify-center '>
             <div className='flex justify-center my-10 gap-3.5'>
@@ -17,7 +21,7 @@ const Doubt = () => {
                     </div>
                     <div className='my-6'>
                         <div>
-                            <h2 className='flex gap-2.5 items-center text-xl'><MdKeyboardArrowDown/> Why do I need a mobile-friendly website?</h2>
+                            <button aria-label='collapsible button'  ><h2 className='flex gap-2.5 items-center text-xl'><MdKeyboardArrowDown/> Why do I need a mobile-friendly website?</h2></button>
                         </div>
                     </div>
                 </div>
