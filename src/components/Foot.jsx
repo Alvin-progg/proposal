@@ -16,131 +16,131 @@ import { GoDotFill } from "react-icons/go";
 const Foot = () => {
     return (
         <section className='w-full h-[92vh] overflow-hidden flex justify-center flex-col  bg-bg1-100'>
-            
-                <div className='flex justify-between   mx-66 mt-10 '>
-                    <div className='flex flex-col justify-between'>
-                        <img src={logoBlacks} alt="logo Black" />
-                        <div className='flex flex-col gap-3 '>
-                            <p>Career</p>
-                            <a href="#" className='flex items-center justify-center gap-2 py-3 px-2 border-dashed border border-border-600 rounded-2xl text-textGray-600 transition-all duration-300 hover:text-bg2-600 hover:border-bg2-600 '><img src={career} className='h-[32px] w-[32px]' alt="career icon" loading='lazy' /> We're Hiring!</a>
-                        </div>
-                        <div className='text-textGray-600 flex flex-col gap-4'>
-                            <p >Follow us</p>
-                            <ul className='flex gap-3 text-2xl '>
-                                <li><a href=""><FaTwitter className='hover:text-bg2-400 transition-all duration-300' /></a></li>
-                                <li><a href=""><FaFacebookF  className='hover:text-bg2-400 transition-all duration-300'/></a></li>
-                                <li><a href=""><FaYoutube  className='hover:text-bg2-400 transition-all duration-300'/></a></li>
-                                <li><a href=""><FaLinkedin  className='hover:text-bg2-400 transition-all duration-300'/></a></li>
-                                <li><a href=""><FaInstagram  className='hover:text-bg2-400 transition-all duration-300' /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className='w-[660px] flex flex-col gap-10'>
-                        <div className='flex gap-10'>
-                            <div className='w-[303px] flex flex-col gap-8 text-textGray-600'>
-                                <div className='flex items-center gap-5'>
-                                    <img src={india} alt="india flag" loading='lazy' className='w-[32px] h-[29px]' />
-                                    <p className='text-xl'>India</p>
-                                </div>
-                                <div className='flex flex-col gap-6 text-textGray-600'>
-                                    <p>Tom Extension, 1st Block 2nd Cross, Yello circle, Jaipur, Rajasthan 12345</p>
-                                    <ul>
-                                        <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300'><BsFillTelephoneFill />91 123 4567 890</a></li>
-                                        <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300'><FaEnvelope />info@yourwebsite.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='w-[303px] flex flex-col gap-8 text-textGray-600'>
-                                <div className='flex items-center gap-5'>
-                                    <img src={us} alt="us flag" loading='lazy' className='w-[32px] h-[29px]' />
-                                    <p className='text-xl'>USA</p>
-                                </div>
-                                <div className='flex flex-col gap-6 text-textGray-600'>
-                                    <p>Tom Extension, 1st Block 2nd Cross, Yello circle, Jaipur, Rajasthan 12345</p>
-                                    <ul>
-                                        <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300'><BsFillTelephoneFill />91 123 4567 890</a></li>
-                                        <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300' ><FaEnvelope />info@yourwebsite.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <ul className='flex gap-8'>
-                            <li><a href="#"><img src={award1} alt="Award icon" className='h-[70px] w-[81px]'  /></a></li>
-                            <li><a href="#"><img src={award2} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
-                            <li><a href="#"><img src={award3} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
-                            <li><a href="#"><img src={award4} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
-                            <li><a href="#"><img src={award5} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
-                            <li><a href="#"><img src={award6} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
 
+            <div className='flex justify-between   mx-66 mt-10 '>
+                <div className='flex flex-col justify-between'>
+                    <img src={logoBlacks} alt="logo Black" />
+                    <div className='flex flex-col gap-3 '>
+                        <p>Career</p>
+                        <a href="#" className='flex items-center justify-center gap-2 py-3 px-2 border-dashed border border-border-600 rounded-2xl text-textGray-600 transition-all duration-300 hover:text-bg2-600 hover:border-bg2-600 '><img src={career} className='h-[32px] w-[32px]' alt="career icon" loading='lazy' /> We're Hiring!</a>
+                    </div>
+                    <div className='text-textGray-600 flex flex-col gap-4'>
+                        <p >Follow us</p>
+                        <ul className='flex gap-3 text-2xl '>
+                            <li><a href=""><FaTwitter className='hover:text-bg2-400 transition-all duration-300' /></a></li>
+                            <li><a href=""><FaFacebookF className='hover:text-bg2-400 transition-all duration-300' /></a></li>
+                            <li><a href=""><FaYoutube className='hover:text-bg2-400 transition-all duration-300' /></a></li>
+                            <li><a href=""><FaLinkedin className='hover:text-bg2-400 transition-all duration-300' /></a></li>
+                            <li><a href=""><FaInstagram className='hover:text-bg2-400 transition-all duration-300' /></a></li>
                         </ul>
                     </div>
                 </div>
-                <div className='flex my-20  justify-between mx-66 border-y border-border-300 py-20 '>
-                    <div className='flex flex-col gap-4 text-textGray-600'>
-                        <h2>Company Links</h2>
-                        <ul className='flex flex-col gap-2'>
-                            <li><a href="#" className='transition-all duration-500 hover:text-bg2-600  '>About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Media Coverage</a></li>
-                            <li><a href="#">Referral Program</a></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Client Testimonials</a></li>
-                        </ul>
+                <div className='w-[660px] flex flex-col gap-10'>
+                    <div className='flex gap-10'>
+                        <div className='w-[303px] flex flex-col gap-8 text-textGray-600'>
+                            <div className='flex items-center gap-5'>
+                                <img src={india} alt="india flag" loading='lazy' className='w-[32px] h-[29px]' />
+                                <p className='text-xl'>India</p>
+                            </div>
+                            <div className='flex flex-col gap-6 text-textGray-600'>
+                                <p>Tom Extension, 1st Block 2nd Cross, Yello circle, Jaipur, Rajasthan 12345</p>
+                                <ul>
+                                    <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300'><BsFillTelephoneFill />91 123 4567 890</a></li>
+                                    <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300'><FaEnvelope />info@yourwebsite.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='w-[303px] flex flex-col gap-8 text-textGray-600'>
+                            <div className='flex items-center gap-5'>
+                                <img src={us} alt="us flag" loading='lazy' className='w-[32px] h-[29px]' />
+                                <p className='text-xl'>USA</p>
+                            </div>
+                            <div className='flex flex-col gap-6 text-textGray-600'>
+                                <p>Tom Extension, 1st Block 2nd Cross, Yello circle, Jaipur, Rajasthan 12345</p>
+                                <ul>
+                                    <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300'><BsFillTelephoneFill />91 123 4567 890</a></li>
+                                    <li><a href="#" className='flex items-center gap-2 hover:text-bg2-400 transition-all duration-300' ><FaEnvelope />info@yourwebsite.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div className='flex flex-col gap-4 text-textGray-600'>
-                        <h2>Technologies</h2>
-                        <ul className='flex flex-col gap-2'>
-                            <li><a href="#">React JS</a></li>
-                            <li><a href="#">Laravel</a></li>
-                            <li><a href="#">CodeIgniter</a></li>
-                            <li><a href="#">Node JS</a></li>
-                            <li><a href="#">WordPress</a></li>
-                            <li><a href="#">Magento</a></li>
-                            <li><a href="#">ReactJS</a></li>
-                            <li><a href="#">KnockoutJs</a></li>
-                        </ul>
-                    </div>
-                    <div className='flex flex-col gap-4 text-textGray-600'>
-                        <h2>Our Services</h2>
-                        <ul className='flex flex-col gap-2'>
-                            <li><a href="#">Web Application</a></li>
-                            <li><a href="#">Mobile App Development</a></li>
-                            <li><a href="#">Microsoft Development</a></li>
-                            <li><a href="#">Front End Development</a></li>
-                            <li><a href="#">eCommerce Development</a></li>
-                            <li><a href="#">Cross-platform App</a></li>
-                            <li><a href="#">Opensource Development</a></li>
-                            <li><a href="#">UI/UX Design</a></li>
-                        </ul>
-                    </div>
-                    <div className='flex flex-col gap-4 text-textGray-600'>
-                        <h2>On Demand Solutions</h2>
-                        <ul className='flex flex-col gap-2'>
-                            <li><a href="#">Taxi App</a></li>
-                            <li><a href="#">Healthcare App</a></li>
-                            <li><a href="#">Live Streaming App</a></li>
-                            <li><a href="#">Live Streaming App</a></li>
-                            <li><a href="#">ELearning App</a></li>
-                            <li><a href="#">eWallet App Solutions</a></li>
-                            <li><a href="#">Fantasy Sports App</a></li>
-                            <li><a href="#">Grocery Delivery App</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='flex justify-between mx-66 text-textGray-600  items-centers '>
-                    <h3>© 2022 All Rights Reserved By <a href="#">Separateweb</a></h3>
-                    <ul className='flex gap-1.5 items-center'>
-                        <li><a href="#">Sitemap</a></li>
-                        <GoDotFill />
-                        <li><a href="#">Privacy Policy</a></li>
-                        <GoDotFill />
-                        <li><a href="#">Terms of Use
-                        </a></li>
+                    <ul className='flex gap-8'>
+                        <li><a href="#"><img src={award1} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                        <li><a href="#"><img src={award2} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                        <li><a href="#"><img src={award3} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                        <li><a href="#"><img src={award4} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                        <li><a href="#"><img src={award5} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                        <li><a href="#"><img src={award6} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+
                     </ul>
                 </div>
-            
+            </div>
+            <div className='flex my-15 justify-between mx-66 border-y border-border-300 py-20 '>
+                <div className='flex flex-col gap-4 text-textGray-600'>
+                    <h2 className=''>Company Links</h2>
+                    <ul className='flex flex-col gap-2'>
+                        <li className='relative'><a href="#" className='transition-all duration-500 hover:text-bg2-600 font-light  '>About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Media Coverage</a></li>
+                        <li><a href="#">Referral Program</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Client Testimonials</a></li>
+                    </ul>
+                </div>
+                <div className='flex flex-col gap-4 text-textGray-600'>
+                    <h2>Technologies</h2>
+                    <ul className='flex flex-col gap-2'>
+                        <li><a href="#">React JS</a></li>
+                        <li><a href="#">Laravel</a></li>
+                        <li><a href="#">CodeIgniter</a></li>
+                        <li><a href="#">Node JS</a></li>
+                        <li><a href="#">WordPress</a></li>
+                        <li><a href="#">Magento</a></li>
+                        <li><a href="#">ReactJS</a></li>
+                        <li><a href="#">KnockoutJs</a></li>
+                    </ul>
+                </div>
+                <div className='flex flex-col gap-4 text-textGray-600'>
+                    <h2>Our Services</h2>
+                    <ul className='flex flex-col gap-2'>
+                        <li><a href="#">Web Application</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Microsoft Development</a></li>
+                        <li><a href="#">Front End Development</a></li>
+                        <li><a href="#">eCommerce Development</a></li>
+                        <li><a href="#">Cross-platform App</a></li>
+                        <li><a href="#">Opensource Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                <div className='flex flex-col gap-4 text-textGray-600'>
+                    <h2>On Demand Solutions</h2>
+                    <ul className='flex flex-col gap-2'>
+                        <li><a href="#">Taxi App</a></li>
+                        <li><a href="#">Healthcare App</a></li>
+                        <li><a href="#">Live Streaming App</a></li>
+                        <li><a href="#">Live Streaming App</a></li>
+                        <li><a href="#">ELearning App</a></li>
+                        <li><a href="#">eWallet App Solutions</a></li>
+                        <li><a href="#">Fantasy Sports App</a></li>
+                        <li><a href="#">Grocery Delivery App</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div className='flex justify-between mx-66 text-textGray-600  items-centers '>
+                <h3>© 2022 All Rights Reserved By <a href="#">Separateweb</a></h3>
+                <ul className='flex gap-1.5 items-center'>
+                    <li><a href="#">Sitemap</a></li>
+                    <GoDotFill />
+                    <li><a href="#">Privacy Policy</a></li>
+                    <GoDotFill />
+                    <li><a href="#">Terms of Use
+                    </a></li>
+                </ul>
+            </div>
+
         </section>
     )
 }
