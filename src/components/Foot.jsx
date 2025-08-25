@@ -15,18 +15,18 @@ import award6 from '../assets/award/award-badge-7.png';
 import { GoDotFill } from "react-icons/go";
 const Foot = () => {
     return (
-        <section className='w-full h-[90vh] overflow-hidden flex items-center justify-center bg-bg1-100'>
-            <div className='flex flex-col  justify-between '>
-                <div className='flex justify-between'>
+        <section className='w-full h-[92vh] overflow-hidden flex justify-center flex-col  bg-bg1-100'>
+            
+                <div className='flex justify-between   mx-66  '>
                     <div className='flex flex-col justify-between'>
                         <img src={logoBlacks} alt="logo Black" />
-                        <div>
+                        <div className='flex flex-col gap-3'>
                             <p>Career</p>
-                            <a href="#" className='flex items-center  gap-2 '><img src={career} className='h-[32px] w-[32px]' alt="career icon" loading='lazy' /> We're Hiring</a>
+                            <a href="#" className='flex items-center justify-center gap-2 py-3 px-2 border-dashed border border-border-600 rounded-2xl '><img src={career} className='h-[32px] w-[32px]' alt="career icon" loading='lazy' /> We're Hiring!</a>
                         </div>
-                        <div>
-                            <p>Follow us</p>
-                            <ul className='flex gap-1.5'>
+                        <div className='text-textGray-600 flex flex-col gap-4'>
+                            <p >Follow us</p>
+                            <ul className='flex gap-3 text-2xl '>
                                 <li><a href=""><FaTwitter /></a></li>
                                 <li><a href=""><FaFacebookF /></a></li>
                                 <li><a href=""><FaYoutube /></a></li>
@@ -35,36 +35,36 @@ const Foot = () => {
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        <div className='flex'>
-                            <div>
-                                <div className='flex items-center gap-2.5'>
+                    <div className='w-[660px] flex flex-col gap-10'>
+                        <div className='flex gap-10'>
+                            <div className='w-[303px] flex flex-col gap-8'>
+                                <div className='flex items-center gap-5'>
                                     <img src={india} alt="india flag" loading='lazy' className='w-[32px] h-[29px]' />
                                     <p>India</p>
                                 </div>
-                                <div>
+                                <div className='flex flex-col gap-6 text-textGray-600'>
                                     <p>Tom Extension, 1st Block 2nd Cross, Yello circle, Jaipur, Rajasthan 12345</p>
                                     <ul>
-                                        <li><a href="#"><BsFillTelephoneFill />91 123 4567 890</a></li>
-                                        <li><a href="#"><FaEnvelope />info@yourwebsite.com</a></li>
+                                        <li><a href="#" className='flex items-center gap-1.5'><BsFillTelephoneFill />91 123 4567 890</a></li>
+                                        <li><a href="#" className='flex items-center gap-1.5'><FaEnvelope />info@yourwebsite.com</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div>
-                                <div className='flex items-center gap-2.5'>
-                                    <img src={us} alt="india flag" loading='lazy' className='w-[32px] h-[29px]' />
+                            <div className='w-[303px] flex flex-col gap-8'>
+                                <div className='flex items-center gap-5'>
+                                    <img src={us} alt="us flag" loading='lazy' className='w-[32px] h-[29px]' />
                                     <p>USA</p>
                                 </div>
-                                <div>
+                                <div className='flex flex-col gap-6 text-textGray-600'>
                                     <p>Tom Extension, 1st Block 2nd Cross, Yello circle, Jaipur, Rajasthan 12345</p>
                                     <ul>
-                                        <li><a href="#"><BsFillTelephoneFill />91 123 4567 890</a></li>
-                                        <li><a href="#"><FaEnvelope />info@yourwebsite.com</a></li>
+                                        <li><a href="#" className='flex items-center gap-1.5'><BsFillTelephoneFill />91 123 4567 890</a></li>
+                                        <li><a href="#" className='flex items-center gap-1.5'><FaEnvelope />info@yourwebsite.com</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <ul className='flex gap-5'>
+                        <ul className='flex gap-8'>
                             <li><a href="#"><img src={award1} alt="Award icon" className='h-[70px] w-[81px]'  /></a></li>
                             <li><a href="#"><img src={award2} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
                             <li><a href="#"><img src={award3} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
@@ -75,7 +75,7 @@ const Foot = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex my-20 justify-between'>
+                <div className='flex my-30 justify-between '>
                     <div>
                         <h2>Company Links</h2>
                         <ul>
@@ -129,9 +129,9 @@ const Foot = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex justify-between'>
+                <div className='flex justify-between '>
                     <h3>© 2022 All Rights Reserved By <a href="#">Separateweb</a></h3>
-                    <ul className='flex gap-1.5'>
+                    <ul className='flex gap-1.5 items-center'>
                         <li><a href="#">Sitemap</a></li>
                         <GoDotFill />
                         <li><a href="#">Privacy Policy</a></li>
@@ -140,7 +140,7 @@ const Foot = () => {
                         </a></li>
                     </ul>
                 </div>
-            </div>
+            
         </section>
     )
 }
