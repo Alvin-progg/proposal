@@ -15,5 +15,5 @@
 
 ## ⚡ Functionality  
 - [x] Navigation links & smooth scroll  
-- [x] Add animations/interactivity (Framer Motion, AOS, etc.)  
+- [ ] Add animations/interactivity (Framer Motion, AOS, etc.)  
 - [x] SEO setup (meta tags, titles, alt text, Open Graph)  
