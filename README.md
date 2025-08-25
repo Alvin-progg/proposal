@@ -1,16 +1,15 @@
 # 📝 Website Development Checklist  
 
 ## 🛠️ Setup  
-- [ ] Initialize project (`npx create-next-app` / `npm create vite@latest` / etc.)  
-- [ ] Setup version control (Git + GitHub)  
-- [ ] Configure environment variables (`.env`)  
-- [ ] Install dependencies (UI libraries, linting tools, etc.)  
+- [x] Initialize project (`npx create-next-app` / `npm create vite@latest` / etc.)  
+- [x] Setup version control (Git + GitHub)  
+- [x] Install dependencies (UI libraries, linting tools, etc.)  
 
 ## 🎨 Design & Layout  
-- [ ] Create header & navigation  
-- [ ] Build landing/hero section  
-- [ ] Add content sections (About, Services, Projects, Contact, etc.)  
-- [ ] Implement responsive design (mobile-first)  
+- [x] Create header & navigation  
+- [x] Build landing/hero section  
+- [x] Add content sections (About, Services, Projects, Contact, etc.)  
+- [x] Implement responsive design (mobile-first)  
 - [ ] Add footer with links and socials  
 
 ## ⚡ Functionality  
