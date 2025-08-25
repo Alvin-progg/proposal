@@ -15,14 +15,14 @@ import award6 from '../assets/award/award-badge-7.png';
 import { GoDotFill } from "react-icons/go";
 const Foot = () => {
     return (
-        <section className='w-full h-[90vh] overflow-hidden'>
-            <div>
-                <div className='flex'>
-                    <div>
+        <section className='w-full h-[90vh] overflow-hidden flex items-center justify-center bg-bg1-100'>
+            <div className='flex flex-col  justify-between '>
+                <div className='flex justify-between'>
+                    <div className='flex flex-col justify-between'>
                         <img src={logoBlacks} alt="logo Black" />
                         <div>
                             <p>Career</p>
-                            <a href="#" className='flex'><img src={career} alt="career icon" loading='lazy' /> We're Hiring</a>
+                            <a href="#" className='flex items-center  gap-2 '><img src={career} className='h-[32px] w-[32px]' alt="career icon" loading='lazy' /> We're Hiring</a>
                         </div>
                         <div>
                             <p>Follow us</p>
@@ -64,68 +64,68 @@ const Foot = () => {
                                 </div>
                             </div>
                         </div>
-                        <ul className='flex'>
-                            <li><a href="#"><img src={award1} alt="Award icon" /></a></li>
-                            <li><a href="#"><img src={award2} alt="Award icon" /></a></li>
-                            <li><a href="#"><img src={award3} alt="Award icon" /></a></li>
-                            <li><a href="#"><img src={award4} alt="Award icon" /></a></li>
-                            <li><a href="#"><img src={award5} alt="Award icon" /></a></li>
-                            <li><a href="#"><img src={award6} alt="Award icon" /></a></li>
+                        <ul className='flex gap-5'>
+                            <li><a href="#"><img src={award1} alt="Award icon" className='h-[70px] w-[81px]'  /></a></li>
+                            <li><a href="#"><img src={award2} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                            <li><a href="#"><img src={award3} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                            <li><a href="#"><img src={award4} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                            <li><a href="#"><img src={award5} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
+                            <li><a href="#"><img src={award6} alt="Award icon" className='h-[70px] w-[81px]' /></a></li>
 
                         </ul>
                     </div>
                 </div>
-                <div className='flex my-20'>
+                <div className='flex my-20 justify-between'>
                     <div>
                         <h2>Company Links</h2>
                         <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Media Coverage</a></li>
+                            <li><a href="#">Referral Program</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Client Testimonials</a></li>
                         </ul>
                     </div>
                     <div>
                         <h2>Technologies</h2>
                         <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">React JS</a></li>
+                            <li><a href="#">Laravel</a></li>
+                            <li><a href="#">CodeIgniter</a></li>
+                            <li><a href="#">Node JS</a></li>
+                            <li><a href="#">WordPress</a></li>
+                            <li><a href="#">Magento</a></li>
+                            <li><a href="#">ReactJS</a></li>
+                            <li><a href="#">KnockoutJs</a></li>
                         </ul>
                     </div>
                     <div>
                         <h2>Our Services</h2>
                         <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">Web Application</a></li>
+                            <li><a href="#">Mobile App Development</a></li>
+                            <li><a href="#">Microsoft Development</a></li>
+                            <li><a href="#">Front End Development</a></li>
+                            <li><a href="#">eCommerce Development</a></li>
+                            <li><a href="#">Cross-platform App</a></li>
+                            <li><a href="#">Opensource Development</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h2>On demand Solutions</h2>
+                        <h2>On Demand Solutions</h2>
                         <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
+                            <li><a href="#">Taxi App</a></li>
+                            <li><a href="#">Healthcare App</a></li>
+                            <li><a href="#">Live Streaming App</a></li>
+                            <li><a href="#">Live Streaming App</a></li>
+                            <li><a href="#">ELearning App</a></li>
+                            <li><a href="#">eWallet App Solutions</a></li>
+                            <li><a href="#">Fantasy Sports App</a></li>
+                            <li><a href="#">Grocery Delivery App</a></li>
                         </ul>
                     </div>
                 </div>
