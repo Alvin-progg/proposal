@@ -7,12 +7,12 @@ import App from '../assets/common/app-design.jpg'
 
 const Blog = () => {
   return (
-    <section className="w-full  mt-10 overflow-hidden">
+    <section className="w-full  my-10 py-10 overflow-hidden bg-bg1-100">
       <div className="flex text-center flex-col gap-5 my-10 mt-15">
         <p className="text-bg2-600 text-xl">Stay Updated</p>
         <h2 className="text-4xl font-semibold">News & blog Updates</h2>
       </div>
-      <div className=" flex items-center justify-center mx-auto  w-[1296px] border-1 rounded-2xl border-border-200 cursor-pointer ">
+      <div className=" flex items-center justify-center mx-auto  w-[1296px] border-1 rounded-2xl border-border-200 cursor-pointer my-10 ">
         <div className="h-[582px] w-[431px] flex-col flex justify-between  border-r border-border-200   ">
           <div className="flex justify-between items-center  p-6 ">
             <h3>March 7, 2022</h3>

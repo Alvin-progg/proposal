@@ -9,7 +9,7 @@ import Tech from './components/Tech'
 import Why from './components/Why'
 import Review from './components/Review'
 import Blog from './components/Blog'
-
+import Doubt from './components/Doubt'
 
 
 const App = () => {
@@ -27,6 +27,8 @@ const App = () => {
         <Why/>
         <Review/>
         <Blog/>
+        <Doubt/>
+
       </main>
     </>
 
