@@ -10,8 +10,8 @@ const CarouselTech = () => {
     <div className="max-w-7xl mx-auto px-8 mt-10 w-full">
       <Swiper
         spaceBetween={10}
-        navigation={false}  
-        slidesPerView={7}
+        navigation={false}
+        slidesPerView={2}
         centeredSlides={true}
         loop={true}
         speed={1500}
@@ -29,6 +29,30 @@ const CarouselTech = () => {
         resistanceRatio={0.85}
         allowTouchMove={true}
         freeMode={false}
+        breakpoints={{
+          320: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            centeredSlides: true
+          },
+          600: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+            centeredSlides: true
+          },
+          850: {
+            slidesPerView: 6,
+            spaceBetween: 15,
+            centeredSlides: true
+          },
+          1024: {
+            slidesPerView: 7,
+            spaceBetween: 15,
+            centeredSlides: true
+          }
+
+
+        }}
       >
         {techStacks.map((tech) => (
           <SwiperSlide
