@@ -15,7 +15,7 @@ import award6 from '../assets/award/award-badge-7.png';
 import { GoDotFill } from "react-icons/go";
 const Foot = () => {
     return (
-        <section className='w-full h-[92vh] overflow-hidden flex justify-center flex-col  bg-bg1-100'>
+        <section className='w-full h-[92vh] max-lg:h-auto overflow-hidden flex justify-center flex-col  bg-bg1-100'>
 
             <div className='flex justify-between   mx-66 mt-10 '>
                 <div className='flex flex-col justify-between'>
@@ -75,7 +75,7 @@ const Foot = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex my-15 justify-between mx-66 border-y border-border-300 py-20 '>
+            <div className='grid grid-cols-4 max-md:grid-cols-2 max-md:grid-rows-2 my-15 justify-between mx-66 border-y border-border-300 py-20 '>
                 <div className='flex flex-col gap-4 text-textGray-600'>
                     <h2 className=''>Company Links</h2>
                     <ul className='flex flex-col gap-2'>
