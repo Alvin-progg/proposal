@@ -3,7 +3,7 @@ import CarouselTech from "./CarouselTech";
 const Tech = () => {
   return (
     <section className="w-full h-[611px] mt-13 bg-bg1-100 overflow-hidden  justify-center  flex">
-      <div className="rounded-b-full h-[250px] w-[500px] bg-blue-700 absolute   "></div>
+      <div className="rounded-b-full h-[250px] w-[500px] bg-blue-700 absolute max-sm:h-[280px] max-sm:hidden "></div>
       <div className="z-10 flex-col flex justify-center items-center   ">
         <div className="z-10 flex flex-col text-center h-[256px] w-[880px] gap-5">
           <h2 className="text-4xl font-semibold py-3">Our Workplace Technologies</h2>

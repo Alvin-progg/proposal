@@ -79,64 +79,64 @@ const Foot = () => {
                 <div className='flex flex-col gap-4 text-textGray-600'>
                     <h2 className=''>Company Links</h2>
                     <ul className='flex flex-col gap-2'>
-                        <li className='relative'><a href="#" className='transition-all duration-500 hover:text-bg2-600 font-light  '>About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Media Coverage</a></li>
-                        <li><a href="#">Referral Program</a></li>
-                        <li><a href="#">Case Studies</a></li>
-                        <li><a href="#">Client Testimonials</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">About Us</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Contact Us</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Careers</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Our Team</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Media Coverage</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Referral Program</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Case Studies</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Client Testimonials</a></li>
+
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 text-textGray-600'>
                     <h2>Technologies</h2>
                     <ul className='flex flex-col gap-2'>
-                        <li><a href="#">React JS</a></li>
-                        <li><a href="#">Laravel</a></li>
-                        <li><a href="#">CodeIgniter</a></li>
-                        <li><a href="#">Node JS</a></li>
-                        <li><a href="#">WordPress</a></li>
-                        <li><a href="#">Magento</a></li>
-                        <li><a href="#">ReactJS</a></li>
-                        <li><a href="#">KnockoutJs</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">React JS</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Laravel</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">CodeIgniter</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Node JS</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">WordPress</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Magento</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">ReactJS</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">KnockoutJs</a></li>
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 text-textGray-600'>
                     <h2>Our Services</h2>
                     <ul className='flex flex-col gap-2'>
-                        <li><a href="#">Web Application</a></li>
-                        <li><a href="#">Mobile App Development</a></li>
-                        <li><a href="#">Microsoft Development</a></li>
-                        <li><a href="#">Front End Development</a></li>
-                        <li><a href="#">eCommerce Development</a></li>
-                        <li><a href="#">Cross-platform App</a></li>
-                        <li><a href="#">Opensource Development</a></li>
-                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Web Application</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Mobile App Development</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Microsoft Development</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Front End Development</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">eCommerce Development</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Cross-platform App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Opensource Development</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">UI/UX Design</a></li>
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 text-textGray-600'>
                     <h2>On Demand Solutions</h2>
                     <ul className='flex flex-col gap-2'>
-                        <li><a href="#">Taxi App</a></li>
-                        <li><a href="#">Healthcare App</a></li>
-                        <li><a href="#">Live Streaming App</a></li>
-                        <li><a href="#">Live Streaming App</a></li>
-                        <li><a href="#">ELearning App</a></li>
-                        <li><a href="#">eWallet App Solutions</a></li>
-                        <li><a href="#">Fantasy Sports App</a></li>
-                        <li><a href="#">Grocery Delivery App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Taxi App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Healthcare App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Live Streaming App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">ELearning App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">eWallet App Solutions</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Fantasy Sports App</a></li>
+                        <li><a href="#" className="relative font-light transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Grocery Delivery App</a></li>
                     </ul>
                 </div>
             </div>
             <div className='flex justify-between mx-66 text-textGray-600  items-centers '>
-                <h3>© 2022 All Rights Reserved By <a href="#">Separateweb</a></h3>
+                <h3>© 2022 All Rights Reserved By <a href="#" className="relative  transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Separateweb</a></h3>
                 <ul className='flex gap-1.5 items-center'>
-                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#" className="relative  transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Sitemap</a></li>
                     <GoDotFill />
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#" className="relative  transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Privacy Policy</a></li>
                     <GoDotFill />
-                    <li><a href="#">Terms of Use
+                    <li><a href="#" className="relative  transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Terms of Use
                     </a></li>
                 </ul>
             </div>
