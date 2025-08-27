@@ -16,7 +16,7 @@ const Why = () => {
         </p>
         <h2 className="text-4xl font-semibold max-lg:text-3xl">Why Choose Blueket For Web Development?</h2>
       </div>
-      <div className="flex items-center justify-center gap-8 my-10 max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-md:grid max-md:grid-cols-2 max-md:mx-auto max-md:grid-rows-2">
+      <div className="flex items-center justify-center gap-8 my-10 max-lg:grid max-lg:grid-cols-2 max-lg:grid-rows-2 max-md:grid max-md:grid-cols-1 max-md:mx-auto max-md:grid-rows-1">
         <div className="w-[300px] h-[295px] flex flex-col p-6 gap-2 rounded-2xl drop-shadow-2xl bg-bg ">
           <img src={Analyz} alt="analyze" loading="lazy" className="h-[52px] w-[52px] " />
           <h3 className="text-2xl font-semibold">Analyze project</h3>
