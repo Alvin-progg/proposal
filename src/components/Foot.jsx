@@ -18,9 +18,9 @@ const Foot = () => {
     return (
         <section className='w-full min-h-[92vh] max-lg:min-h-auto overflow-hidden flex justify-center flex-col bg-bg1-100'>
 
-            <div className='flex justify-between max-lg:flex-col max-lg:gap-8 mx-66 max-lg:mx-8 max-md:mx-4 mt-10'>
+            <div className='flex justify-between max-lg:flex-col max-lg:gap-8 mx-66 max-lg:mx-8 max-md:mx-4 mt-10 lg:mx-40     max-[1480px]:gap-8 '>
                 
-                <div className='flex flex-col justify-between max-lg:gap-8'>
+                <div className='flex flex-col justify-between max-lg:gap-8 max-xl:max-w-2xs'>
                     <img src={logoBlacks} alt="logo Black" className='max-lg:w-40' />
                     
                     <div className='flex flex-col gap-3'>
@@ -40,8 +40,8 @@ const Foot = () => {
                     </div>
                 </div>
                 
-                <div className='w-[660px] max-lg:w-full flex flex-col gap-10'>
-                    <div className='flex gap-10 max-md:flex-col max-md:gap-8'>
+                <div className='w-[660px] max-lg:w-full flex flex-col gap-10 '>
+                    <div className='flex gap-10 max-md:flex-col max-md:gap-8 lg:gap-0'>
                         <div className='w-[303px] max-lg:w-full flex flex-col gap-8 text-textGray-600'>
                             <div className='flex items-center gap-5'>
                                 <img src={india} alt="india flag" loading='lazy' className='w-[32px] h-[29px]' />
@@ -70,18 +70,18 @@ const Foot = () => {
                         </div>
                     </div>
                     
-                    <ul className='flex gap-8 max-md:gap-4 max-md:flex-wrap max-md:justify-center'>
-                        <li><a href="#"><img src={award1} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px]' /></a></li>
-                        <li><a href="#"><img src={award2} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px]' /></a></li>
-                        <li><a href="#"><img src={award3} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px]' /></a></li>
-                        <li><a href="#"><img src={award4} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px]' /></a></li>
-                        <li><a href="#"><img src={award5} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px]' /></a></li>
-                        <li><a href="#"><img src={award6} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px]' /></a></li>
+                    <ul className='flex gap-8 max-md:gap-4 max-md:flex-wrap max-md:justify-center xl:gap-3 lg:gap-3'>
+                        <li><a href="#"><img src={award1} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px] max-lg:w-[70px] max-lg:h-[60px]' /></a></li>
+                        <li><a href="#"><img src={award2} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px] max-lg:w-[70px] max-lg:h-[60px]' /></a></li>
+                        <li><a href="#"><img src={award3} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px] max-lg:w-[70px] max-lg:h-[60px]' /></a></li>
+                        <li><a href="#"><img src={award4} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px] max-lg:w-[70px] max-lg:h-[60px]' /></a></li>
+                        <li><a href="#"><img src={award5} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px] max-lg:w-[70px] max-lg:h-[60px]' /></a></li>
+                        <li><a href="#"><img src={award6} alt="Award icon" className='h-[70px] w-[81px] max-md:h-[60px] max-md:w-[70px] max-lg:w-[70px] max-lg:h-[60px]' /></a></li>
                     </ul>
                 </div>
             </div>
             
-            <div className='grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 my-15 max-lg:my-10 justify-between mx-66 max-lg:mx-8 max-md:mx-4 border-y border-border-300 py-20 max-lg:py-10 gap-8 max-lg:gap-6'>
+            <div className='grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 my-15 lg:mx-40 max-lg:my-10 justify-between mx-66 max-lg:mx-8 max-md:mx-4 border-y border-border-300 py-20 max-lg:py-10 gap-8 max-lg:gap-6'>
                 <div className='flex flex-col gap-4 text-textGray-600'>
                     <h2 className=''>Company Links</h2>
                     <ul className='flex flex-col gap-2'>
@@ -135,7 +135,7 @@ const Foot = () => {
                 </div>
             </div>
             
-            <div className='flex justify-between max-md:flex-col max-md:gap-4 max-md:text-center mx-66 max-lg:mx-8 max-md:mx-4 text-textGray-600 items-center'>
+            <div className='flex justify-between max-md:flex-col lg:mx-40   lg:my-10 max-md:gap-4 max-md:text-center mx-66 max-lg:mx-8 max-md:mx-4 text-textGray-600 items-center'>
                 <h3>© 2022 All Rights Reserved By <a href="#" className="relative transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Separateweb</a></h3>
                 <ul className='flex gap-1.5 items-center max-md:justify-center'>
                     <li><a href="#" className="relative transition-all duration-500 hover:text-bg2-600 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-bg2-500 after:to-bg2-300 after:transition-all after:duration-500 hover:after:w-full">Sitemap</a></li>
