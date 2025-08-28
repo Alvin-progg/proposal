@@ -5,7 +5,7 @@ import { CgArrowTopRight } from "react-icons/cg";
 const Hero = () => {
   return (
     <section className="min-h-screen w-full relative flex justify-center items-center bg-[url(./assets/slider-2.jpg)] bg-cover bg-center">
-
+      
       <div className="absolute inset-0 bg-black/50"></div>
 
 
@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
 
 
-        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-text max-w-4xl">
+        <h1 className=" font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight text-text max-w-4xl">
           We Build Global Experience That Customers Love.
         </h1>
 
