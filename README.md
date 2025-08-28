@@ -9,7 +9,7 @@
 - [x] Create header & navigation  
 - [x] Build landing/hero section  
 - [x] Add content sections (About, Services, Projects, Contact, etc.)  
-- [ ] Implement responsive design (mobile-first)  
+- [x] Implement responsive design (mobile-first)  
 - [x] Add footer with links and socials  
 
 ## ⚡ Functionality  
