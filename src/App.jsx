@@ -16,21 +16,22 @@ const App = () => {
   return (
     <>
       <header>
-        <Nav/>
-        <Hero/>
+        <Nav />
+
       </header>
       <main >
-        <Services/>
-        <About/>
-        <Portfolio/>
-        <Tech/>
-        <Why/>
-        <Review/>
-        <Blog/>
-        <Doubt/>
+        <Hero />
+        <Services />
+        <About />
+        <Portfolio />
+        <Tech />
+        <Why />
+        <Review />
+        <Blog />
+        <Doubt />
       </main>
       <footer>
-        <Foot/>
+        <Foot />
       </footer>
     </>
 
